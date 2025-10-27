@@ -213,14 +213,6 @@ Setup tips
 - In Templater settings, enable “Trigger Templater on new file creation” for smooth template workflows.
 - With QuickAdd, create capture macros mapped to the Templates folder to speed up note creation.
 
-## Screenshots / GIFs
-
-Drop your screenshots into `images/` and use these filenames (or tell me new names and I will update links):
-
-![Knowledge Graph (Obsidian Graph View)](images/OffsecDEV.gif)
-
-![Vault Structure (Obsidian Sidebar)](images/OffsecDEV.png)
-
 
 
 ### Additional Visuals
