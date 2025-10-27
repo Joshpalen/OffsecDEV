@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"n_title","type":"text","text":"Threat Model (STRIDE)","background":"#e0f7fa","x":-900,"y":-220,"width":400,"height":80},
+		{"id":"n_s","type":"text","text":"S • Spoofing\n– Weak auth\n– Credential reuse","background":"#fce4ec","x":-900,"y":-110,"width":260,"height":180},
+		{"id":"n_t","type":"text","text":"T • Tampering\n– Unsigned updates\n– Insecure storage","background":"#f3e5f5","x":-610,"y":-110,"width":260,"height":180},
+		{"id":"n_r","type":"text","text":"R • Repudiation\n– Missing logs\n– No non-repudiation","background":"#e8eaf6","x":-320,"y":-110,"width":260,"height":180},
+		{"id":"n_d","type":"text","text":"D • DoS\n– Rate limits missing\n– Expensive queries","background":"#e8f5e9","x":260,"y":-110,"width":260,"height":180},
+		{"id":"n_e","type":"text","text":"E • Elevation of Privilege\n– Over-broad tokens\n– Insecure deserialization","background":"#fff3e0","x":550,"y":-110,"width":300,"height":180},
+		{"id":"n_controls","type":"text","text":"Controls\n• MFA, PAM\n• Code signing\n• WAF/IDS\n• TLS, Secrets mgmt\n• RBAC/ABAC\n• Audit logging","background":"#f5f5f5","x":-900,"y":110,"width":420,"height":210},
+		{"id":"n_risks","type":"text","text":"Top Risks →","background":"#fff9c4","x":-420,"y":110,"width":180,"height":80},
+		{"id":"n_risk1","type":"text","text":"1) ","background":"#fffde7","x":-220,"y":100,"width":260,"height":80},
+		{"id":"n_risk2","type":"text","text":"2) ","background":"#fffde7","x":60,"y":100,"width":260,"height":80},
+		{"id":"n_risk3","type":"text","text":"3) ","background":"#fffde7","x":340,"y":100,"width":260,"height":80},
+		{"id":"n_i","type":"text","text":"I • Info Disclosure\n– Sensitive data in transit\n– Public S3 buckets","background":"#e3f2fd","x":-30,"y":-110,"width":260,"height":180}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,31 @@
+# Obsidian / general
+.obsidian/cache/
+.obsidian/workspace*
+.obsidian/graph.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/app.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+Automation/Scripts/venv_offsec/
+
+# Archives and temp
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.tmp
+*.swp
+
+# Other
+~$*
