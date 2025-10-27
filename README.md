@@ -175,3 +175,14 @@ Drop your screenshots into `images/` and use these filenames (or tell me new nam
 ![Vulnerability Index Dashboard](images/vuln-dashboard.gif)
 
 
+
+### Additional Visuals
+
+- Vault structure (Obsidian sidebar):
+
+![Vault Structure (Obsidian Sidebar)](images/vault-structure.png)
+
+- Knowledge graph (Obsidian Graph View):
+
+![Knowledge Graph (Obsidian Graph View)](images/graph-view.gif)
+
