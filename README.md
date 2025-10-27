@@ -80,6 +80,53 @@ All templates live in [Templates](Templates) and are compatible with Templater p
 
 ---
 
+
+## Templates Overview (Full)
+
+- Programming Languages
+  - Python: `Templates/Python.md`, `Templates/Python_Note.md`
+  - JavaScript: `Templates/JavaScript.md`, `Templates/JavaScript_Note.md`
+  - Java: `Templates/Java.md`, `Templates/Java_Note.md`
+  - C#: `Templates/C_Sharp.md`, `Templates/C_Sharp_Note.md`
+  - C++: `Templates/C++.md`, `Templates/C++_Note.md`
+  - Ruby: `Templates/Ruby.md`, `Templates/Ruby_Note.md`
+  - Perl (spelled Pearl in files): `Templates/Pearl.md`, `Templates/Pearl_Note.md`
+  - Zsh: `Templates/Zsh_Note.md`
+  - Dockerfile reference: `Templates/Dockerfile.md`, `Templates/Dockerfile_Note.md`
+
+- Operational Tools
+  - Metasploit: `Templates/Metasploit_Note.md`
+  - Nmap: `Templates/Nmap_Note.md`
+  - Wireshark: `Templates/Wireshark_Note.md`
+  - Snort/NIDS: `Templates/Snort_Note.md`, `Templates/NIDS_Note.md`
+  - Nessus: `Templates/Nessus_Note.md`
+  - Obsidian: `Templates/Obsidian_Note.md`
+  - Generic Tool: `Templates/Tool_Template.md`
+
+- Reporting & Documentation
+  - Pentest Report: `Templates/Pentest_Report_Template.md`
+  - Exploit Write-up: `Templates/Exploit_Template.md`
+  - Lab Notes: `Templates/Lab Notes.md`
+  - Book/Chapter: `Templates/Book_Template.md`, `Templates/Chapter_Template.md`
+
+- Infrastructure & Networking
+  - Networking: `Templates/Networking_Note.md`
+  - Firewall: `Templates/Firewall_Note.md`
+
+- Knowledge & Learning
+  - General Reading: `Templates/General_Reading_Note.md`
+  - New Reading Entry: `Templates/New_Reading_Entry.md`
+  - Links collector: `Templates/Links.md`
+  - Packages/Dependencies: `Templates/Packages_Note.md`
+  - Social Engineering: `Templates/Social_Engineering.md`
+  - Language generic: `Templates/Language_Template.md`
+
+- Workflow & Visualization
+  - Flowchart/Canvas helper: `Templates/Flowchart_Template.md`
+
+Tips
+- Use Templater to instantiate any of these quickly; most include prompts for metadata/frontmatter.
+- If you want, I can wire QuickAdd capture commands for each template.
 ## Automation: SE Evidence Finder
 
 Python utility to copy and normalize social‑engineering or campaign evidence into the vault with an index and JSON manifest.
@@ -185,5 +232,6 @@ Drop your screenshots into `images/` and use these filenames (or tell me new nam
 - Knowledge graph (Obsidian Graph View):
 
 ![Knowledge Graph (Obsidian Graph View)](images/OffsecDEV.gif)
+
 
 
