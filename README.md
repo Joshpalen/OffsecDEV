@@ -166,11 +166,12 @@ Setup tips
 - In Templater settings, enable “Trigger Templater on new file creation” for smooth template workflows.
 - With QuickAdd, create capture macros mapped to the Templates folder to speed up note creation.
 
-## Screenshots
+## Screenshots / GIFs
 
 Drop your screenshots into `images/` and use these filenames (or tell me new names and I will update links):
 
-![Master Index (Map of Content)](images/master-index.png)
+![Master Index (Map of Content)](images/master-index.gif)
 
-![Vulnerability Index Dashboard](images/vuln-dashboard.png)
+![Vulnerability Index Dashboard](images/vuln-dashboard.gif)
+
 
