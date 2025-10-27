@@ -170,9 +170,9 @@ Setup tips
 
 Drop your screenshots into `images/` and use these filenames (or tell me new names and I will update links):
 
-![Master Index (Map of Content)](images/master-index.gif)
+![Knowledge Graph (Obsidian Graph View)](images/OffsecDEV.gif)
 
-![Vulnerability Index Dashboard](images/vuln-dashboard.gif)
+![Vault Structure (Obsidian Sidebar)](images/OffsecDEV.png)
 
 
 
@@ -180,9 +180,10 @@ Drop your screenshots into `images/` and use these filenames (or tell me new nam
 
 - Vault structure (Obsidian sidebar):
 
-![Vault Structure (Obsidian Sidebar)](images/vault-structure.png)
+![Vault Structure (Obsidian Sidebar)](images/OffsecDEV.png)
 
 - Knowledge graph (Obsidian Graph View):
 
-![Knowledge Graph (Obsidian Graph View)](images/graph-view.gif)
+![Knowledge Graph (Obsidian Graph View)](images/OffsecDEV.gif)
+
 
