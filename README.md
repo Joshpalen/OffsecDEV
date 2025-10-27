@@ -46,7 +46,7 @@ A complete, opinionated Obsidian knowledge system for offensive security, networ
   - Reading Log (structured learning tracker)
 - Templates — Ready‑to‑use structures for:
   - Tools: Nmap, Metasploit, Wireshark, Snort, Zsh, Dockerfile
-  - Languages: Python, JavaScript, C#, C++, Ruby, Zsh
+  - Languages: Python, JavaScript, Java, C#, C++, Ruby, Perl, Zsh
   - Reports: Pentest report, Findings blocks, Lab notes, Flowcharts
   - Knowledge: General reading, Links, Networking, Firewall, NIDS
 - Automation — Evidence and campaign helpers
@@ -90,7 +90,7 @@ All templates live in [Templates](Templates) and are compatible with Templater p
   - C#: `Templates/C_Sharp.md`, `Templates/C_Sharp_Note.md`
   - C++: `Templates/C++.md`, `Templates/C++_Note.md`
   - Ruby: `Templates/Ruby.md`, `Templates/Ruby_Note.md`
-  - Perl (spelled Pearl in files): `Templates/Pearl.md`, `Templates/Pearl_Note.md`
+  - Perl: `Templates/Perl.md`, `Templates/Perl_Note.md`
   - Zsh: `Templates/Zsh_Note.md`
   - Dockerfile reference: `Templates/Dockerfile.md`, `Templates/Dockerfile_Note.md`
 
@@ -232,6 +232,7 @@ Drop your screenshots into `images/` and use these filenames (or tell me new nam
 - Knowledge graph (Obsidian Graph View):
 
 ![Knowledge Graph (Obsidian Graph View)](images/OffsecDEV.gif)
+
 
 
 
