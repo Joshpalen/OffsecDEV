@@ -147,3 +147,30 @@ If you’re new: start by reading, templating one tool, and writing one mini‑w
 
 This is an educational and operational structure intended to accelerate learning and standardize execution. Use responsibly and ethically.
 
+
+---
+
+## Recommended Community Plugins
+
+- Dataview: Query notes to build dashboards, tables, and task views. Used across all index pages to surface “active” content from metadata.
+- Templater: Powerful templating and prompts that generate consistent frontmatter and scaffolds. This vault’s templates are Templater-ready.
+- QuickAdd (optional): Create capture commands to instantly spawn Tool, Vulnerability, Workflow, and Reading notes from templates.
+- Tag Wrangler (optional): Rename and merge tags safely, keeping your taxonomy consistent.
+- Canvas / Advanced Canvas: Visualize architectures and workflows. This repo includes .canvas files under Flowcharts/.
+- Tasks (optional): Rich task management in Markdown; great for campaign checklists.
+- Admonition (optional): Clean callout blocks for warnings, tips, and notes in reports and guides.
+- Obsidian Git (optional): Version your vault directly from Obsidian if you prefer in‑app commits.
+
+Setup tips
+- Enable Dataview and Templater first; most dashboards and templates depend on them.
+- In Templater settings, enable “Trigger Templater on new file creation” for smooth template workflows.
+- With QuickAdd, create capture macros mapped to the Templates folder to speed up note creation.
+
+## Screenshots
+
+Drop your screenshots into `images/` and use these filenames (or tell me new names and I will update links):
+
+![Master Index (Map of Content)](images/master-index.png)
+
+![Vulnerability Index Dashboard](images/vuln-dashboard.png)
+
