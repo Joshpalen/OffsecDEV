@@ -1,4 +1,4 @@
----
+﻿---
 title: "Perl"
 type: language
 tags: [cs, language, perl]
@@ -38,9 +38,11 @@ close $fh;
 | Install | `cpan <module>` |
 
 ## Related
-[[Templates/Algorithm]] • [[Templates/Data_Structure]] • [[Templates/Concept]]
+[[Templates/Algorithm]] -$ [[Templates/Data_Structure]] -$ [[Templates/Concept]]
 
 ## Resources
 - Docs: https://perldoc.perl.org/
 - CPAN: https://www.cpan.org/
+
+
 

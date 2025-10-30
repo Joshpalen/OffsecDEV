@@ -1,18 +1,18 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: campaign
 client: "<client>"
 scope: "<in-scope assets>"
-window: "<YYYY-MM-DD – YYYY-MM-DD>"
+window: "<YYYY-MM-DD - YYYY-MM-DD>"
 status: planned
 tags: [campaign, pentesting]
 cssclass: cs-note
 ---
 
-# <% tp.file.title %> — Overview
+# <% tp.file.title %> - Overview
 
 > [!meta]
-> Client: <client> • Window: <YYYY-MM-DD – YYYY-MM-DD> • Status: planned
+> Client: <client> -$ Window: <YYYY-MM-DD - YYYY-MM-DD> -$ Status: planned
 
 ## Links
 - ROE: [[01-Admin/ROE/ROE Signed.pdf]]
@@ -22,12 +22,12 @@ cssclass: cs-note
 - Report: [[06-Reporting/Final_Report]]
 
 ## Phases
-- Planning: ☐  
-- Recon: ☐  
-- Enumeration: ☐  
-- Exploitation: ☐  
-- Post‑Exploitation: ☐  
-- Reporting: ☐
+- Planning: -~  
+- Recon: -~  
+- Enumeration: -~  
+- Exploitation: -~  
+- Post-'Exploitation: -~  
+- Reporting: -~
 
 ## Findings (live)
 ```dataview
@@ -36,4 +36,6 @@ FROM this.file.folder
 WHERE contains(file.path, "/06-Reporting/Findings/") AND type = "finding"
 SORT severity DESC, file.name ASC
 ```
+
+
 

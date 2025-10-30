@@ -1,24 +1,13 @@
----
+﻿---
 title: "Evidence Hub"
-tags: [hub, evidence, index]
-cssclass: cs-note
+tags: [hub, evidence]
+cssclass: simple-note
 ---
 
 # Evidence Hub
 
-## Evidence Indexes
-```dataview
-TABLE file.folder AS "Campaign", file.mtime AS "Updated"
-FROM ""
-WHERE file.name = "Evidence_Index.md"
-SORT file.mtime DESC
-```
+How to store proof and artifacts:
 
-## Evidence Manifests
-```dataview
-TABLE file.folder AS "Campaign", file.mtime AS "Updated"
-FROM ""
-WHERE file.name = "evidence_manifest.json"
-SORT file.mtime DESC
-```
-
+- Keep files under `Pentest Campaign/<campaign>/Evidence/`
+- Use `Run_Evidence_Finder.ps1` to normalise and index
+- Reference `Evidence_Index.md` and `evidence_manifest.json` in each campaign folder

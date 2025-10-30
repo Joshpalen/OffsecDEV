@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: packages
 created: "<% tp.date.now('YYYY-MM-DD') %>"
@@ -42,4 +42,5 @@ npm outdated
 
 ## References
 Vendor pages, package repos
+
 

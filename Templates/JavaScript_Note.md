@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: lang-note
 language: JavaScript
@@ -10,7 +10,7 @@ cssclass: cs-note
 # <% tp.file.title %>
 
 > [!meta]
-> Language: JavaScript • Topic:  
+> Language: JavaScript -$ Topic:  
 > Date: <% tp.date.now('YYYY-MM-DD') %>
 
 ## Concept
@@ -38,4 +38,6 @@ greet("Josh");
 
 ## References
 MDN or library docs
+
+
 

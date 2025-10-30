@@ -1,105 +1,30 @@
----
+﻿---
 title: "Applied Statistics for STEM"
-type: course
-code: "MAT-243-13721-M01"
-instructor: "Josh Palen"
-institution: "Southern New Hampshire University"
-term: "2025 C-6 (Oct–Dec)"
-credits: 3
-schedule: "Asynchronous Online"
-location: "SNHU Brightspace"
-status: "In Progress"
-tags: [cs, course, SNHU, statistics]
-source_url: "https://learn.snhu.edu/d2l/le/content/2080256/viewContent/44923424/View"
-cssclass: cs-note
+tags: [course, SNHU]
+cssclass: simple-note
 ---
 
 # Applied Statistics for STEM
 
-> [!meta]
-> Code: MAT-243-13721-M01 • Term: 2025 C-6 (Oct–Dec) • Credits: 3  
-> Instructor: Josh Palen • Location: SNHU Brightspace  
-> Schedule: Asynchronous Online
+- Code: MAT-243-13721-M01
+- Term: 2025 C-6 (Oct-Dec)
+- Instructor: Josh Palen
+- Schedule: Asynchronous Online
 
 ## Description
-Brief summary of the course content, themes, and goals.
+Short summary of what the course covers and what you want to get out of it.
 
-## Learning Objectives
-- Understand …
-- Apply …
-- Analyze …
-- Create …
+## Weekly Plan
+| Week | Topic | Notes |
+|------|-------|-------|
+| 1 |  |  |
+| 2 |  |  |
+| 3 |  |  |
 
-## Course Structure
-| Week | Topics | Readings | Assignments | Key Dates |
-|------|--------|----------|-------------|-----------|
-| 1 | Introduction to … | Chapter 1 | Assignment 1 due YYYY-MM-DD |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| … |  |  |  |  |
+## Important Links
+- Syllabus: https://learn.snhu.edu/d2l/le/content/2080256/viewContent/44923424/View
+- Course website: 
+- Discussion board: 
 
-## Materials
-- Textbook(s):  
-  - Title by Author (Edition)
-- Supplementary:  
-  - Articles, websites, lecture notes, etc.
-
-## Assignments & Projects
-| Title | Description | Due Date | Status | Grade |
-|-------|-------------|----------|--------|-------|
-| Assignment 1 |  |  | [ ] |  |
-| Midterm |  |  | [ ] |  |
-| Final Project |  |  | [ ] |  |
-
-## Assessment Breakdown
-| Component | Weight | Notes |
-|----------|--------|-------|
-| Assignments |  |  |
-| Midterm |  |  |
-| Final Exam |  |  |
-| Participation |  |  |
-
-## Notes & Reflections
-How this course connects to goals, skills gained, and challenges.
-
-## Links
-- Syllabus (PDF): https://learn.snhu.edu/d2l/le/content/2080256/viewContent/44923424/View
-- Course website
-- Lecture recordings folder
-- Discussion board
-
-## Related Materials
-> Hint: In lecture/assignment/reading notes, set `course: [[Applied Statistics for STEM ~SNHU Course Overview~]]` to auto-link here.
-
-### Lectures
-```dataview
-TABLE file.name AS "Lecture", date
-FROM ""
-WHERE type = "lecture" AND course = this.file.link
-SORT date ASC
-```
-
-### Problem Sets
-```dataview
-TABLE file.name AS "Set", due
-FROM ""
-WHERE type = "problem-set" AND course = this.file.link
-SORT due ASC
-```
-
-### Readings
-```dataview
-TABLE file.name AS "Reading", year, authors
-FROM ""
-WHERE type = "reading" AND course = this.file.link
-SORT file.ctime ASC
-```
-
-### Exam Reviews
-```dataview
-TABLE file.name AS "Exam", date
-FROM ""
-WHERE type = "exam-review" AND course = this.file.link
-SORT date ASC
-```
-
+## Notes
+Use this page to track progress, reminders, or reflections.

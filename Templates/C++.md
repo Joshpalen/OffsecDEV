@@ -1,4 +1,4 @@
----
+﻿---
 title: "C++"
 type: language
 tags: [cs, language, cpp]
@@ -36,9 +36,11 @@ while (cond) { /*...*/ }
 `vector`, `map`, algorithms like `sort`, `find`.
 
 ## Related
-[[Templates/Algorithm]] • [[Templates/Data_Structure]] • [[Templates/Concept]]
+[[Templates/Algorithm]] -$ [[Templates/Data_Structure]] -$ [[Templates/Concept]]
 
 ## Resources
 - cppreference: https://en.cppreference.com/
 - Core Guidelines: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "sqlmap"
 type: tool-note
 tool: sqlmap
@@ -22,4 +22,5 @@ Always validate scope; use tamper scripts if needed. Prefer read-only extraction
 
 ## References
 - https://sqlmap.org/
+
 

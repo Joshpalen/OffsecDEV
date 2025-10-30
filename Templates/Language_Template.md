@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: language
 language: ""
@@ -34,9 +34,11 @@ Brief summary and common use cases.
 Short example and best practices.
 
 ## Related
-[[Templates/Algorithm]] • [[Templates/Data_Structure]] • [[Templates/Concept]]
+[[Templates/Algorithm]] -$ [[Templates/Data_Structure]] -$ [[Templates/Concept]]
 
 ## Resources
 - Official docs:  
 - Cheat sheet: 
+
+
 

@@ -1,19 +1,14 @@
 ---
 title: "Forensics Hub"
-tags: [hub, forensics, index]
-cssclass: cs-note
+tags: [hub, forensics]
+cssclass: simple-note
 ---
 
 # Forensics Hub
 
 ## Quick Links
 - Packet analysis: [[Templates/Wireshark_Note]]
-- IDS: [[Templates/Snort_Note]] • [[00_Index/Tools_Hub]]
+- IDS notes: [[Templates/Snort_Note]]
+- Evidence storage: [[00_Index/Evidence_Hub]]
 
-## Recent Forensics Notes
-```dataview
-TABLE file.name AS "Note", file.mtime AS "Updated"
-FROM ""
-WHERE any(contains(file.tags, "#forensics"), contains(file.tags, "#pcap"))
-SORT file.mtime DESC
-```
+Document each investigation as a short note and save relevant captures in `Evidence/`.

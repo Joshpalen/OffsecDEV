@@ -1,7 +1,7 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: data-structure
-category: "Array / List / Tree / Graph / Hash / Heap / …"
+category: "Array / List / Tree / Graph / Hash / Heap / -|"
 invariants: ""
 tags: [cs, data-structure]
 cssclass: cs-note
@@ -14,7 +14,7 @@ cssclass: cs-note
 > Related: [[Algorithm]], [[Concept]]
 
 ## Description
-What it is, why it’s useful, and typical use cases.
+What it is, why it-TMs useful, and typical use cases.
 
 ## Operations
 | Operation | Description | Time | Space |
@@ -37,4 +37,6 @@ class DS:
 
 ## Notes
 Trade-offs, variants, and common pitfalls.
+
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: lang-note
 language: C#
@@ -10,7 +10,7 @@ cssclass: cs-note
 # <% tp.file.title %>
 
 > [!meta]
-> Language: C# • Topic:  
+> Language: C# -$ Topic:  
 > Date: <% tp.date.now('YYYY-MM-DD') %>
 
 ## Concept
@@ -37,4 +37,6 @@ class Program { static void Main() { Console.WriteLine("Hello"); } }
 
 ## References
 Docs or guides
+
+
 

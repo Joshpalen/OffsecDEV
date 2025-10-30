@@ -1,33 +1,21 @@
----
+﻿---
 title: "<% tp.file.title %>"
-type: reading
-citekey: "@key"
-authors: ""
-year: ""
-source: "Book / Paper / Article / Video"
-tags: [cs, reading]
-cssclass: cs-note
+tags: [reading]
+cssclass: simple-note
 ---
 
 # <% tp.file.title %>
 
-> [!meta]
-> Citation: @key • Year:  
-> Link: 
+- Source / link: 
+- Date: <% tp.date.now('YYYY-MM-DD') %>
 
 ## Summary
-Core contributions and main idea in a few sentences.
+Main idea in two or three sentences.
 
 ## Key Points
 - 
 - 
 
 ## Notes
-Quotes, definitions, diagrams, or examples worth keeping.
-
-## Critique
-Strengths, weaknesses, and open questions.
-
-## Related
-Connect to algorithms, data structures, or concepts.
+Any quotes, examples, or questions to revisit.
 

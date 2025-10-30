@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: exam-review
 course: "[[Course Name]]"
@@ -30,4 +30,5 @@ cssclass: cs-note
 
 ## Cheatsheet
 Important definitions, formulas, and patterns.
+
 

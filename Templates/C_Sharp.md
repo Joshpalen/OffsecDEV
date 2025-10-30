@@ -1,4 +1,4 @@
----
+﻿---
 title: "C#"
 type: language
 tags: [cs, language, csharp]
@@ -34,13 +34,15 @@ try { risky(); } catch (Exception ex) { Console.WriteLine(ex); } finally { clean
 | Task | Command |
 |------|---------|
 | New console | `dotnet new console -n App` |
-| Restore/Build/Run | `dotnet restore` • `dotnet build` • `dotnet run` |
+| Restore/Build/Run | `dotnet restore` -$ `dotnet build` -$ `dotnet run` |
 | Add package | `dotnet add package <Name>` |
 
 ## Related
-[[Templates/Algorithm]] • [[Templates/Data_Structure]] • [[Templates/Concept]]
+[[Templates/Algorithm]] -$ [[Templates/Data_Structure]] -$ [[Templates/Concept]]
 
 ## Resources
 - Docs: https://learn.microsoft.com/dotnet/csharp/
 - .NET CLI: https://learn.microsoft.com/dotnet/core/tools/
+
+
 

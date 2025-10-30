@@ -1,4 +1,4 @@
----
+﻿---
 title: "Ruby"
 type: language
 tags: [cs, language, ruby]
@@ -33,8 +33,12 @@ end
 | Gems | `gem install <name>` |
 
 ## Related
-[[Templates/Algorithm]] • [[Templates/Data_Structure]] • [[Templates/Concept]]
+- [[Templates/Algorithm]]
+- [[Templates/Data_Structure]]
+- [[Templates/Concept]]
 
 ## Resources
 - Docs: https://ruby-doc.org/
+
+
 

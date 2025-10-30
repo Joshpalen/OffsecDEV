@@ -1,71 +1,40 @@
 ---
 title: "Master Index"
 tags: [core, index]
-cssclass: cs-note
+cssclass: simple-note
 ---
 
-# Master Index
+# Welcome
 
-Vault: OffsecDEV_Root  
-Author: Josh  
-Purpose: Root navigation hub linking domains, tools, tags, templates, and active projects.
+This vault is meant to make note-taking easy. Use the links below to jump to the places you'll update most often.
 
-## Core Navigation
-| Category | Description | Link |
-|---------|-------------|------|
-| Tag Index | Complete reference of all tags | [[Tags/Index]] |
-| Taxonomy Reference | Relationships & hierarchy between tags | [[Tags/Taxonomy Reference]] |
-| Templates | Predefined note structures | [[Templates/Templates_Hub]] |
-| Tools | Tool notes + usage | [[00_Index/Tools_Hub]] |
-| Reports | Deliverables and findings | [[00_Index/Reports_Hub]] |
-| Scripts | Script notes | [[00_Index/Scripts_Hub]] |
-| Courses | Course pages + dashboards | [[00_Index/Courses_Hub]] |
-| Algorithms | Algorithms index | [[00_Index/Algorithms_Index]] |
-| Data Structures | DS index | [[00_Index/Data_Structures_Index]] |
+## Start Here
+- [[00_Index/Getting_Started]] - plugin setup, capture shortcuts, and quick tips
+- [[README]] - overview of the structure and how the notebook is organised
 
-## Quick Views
-### Recent Updates
-```dataview
-TABLE file.name AS "Recent", file.folder AS "Location", file.mtime AS "Updated"
-FROM ""
-SORT file.mtime DESC
-LIMIT 15
-```
+## Take Notes
+- General note template: `Templates/All_Purpose_Note.md`
+- Course / lecture note: `Templates/Lecture_Note.md`
+- Quick reading summary: `Templates/Reading_Summary.md`
+- Pentest session log: `Templates/Pentest_Session_Note.md`
 
-### Open Tasks
-```dataview
-TASK
-FROM ""
-WHERE !completed
-SORT file.mtime DESC
-```
+> Tip: use QuickAdd (if installed) for "New Note", "New Course Note", or "New Pentest Note".
 
-### Reading Queue
-```dataview
-TABLE file.name AS "Reading", file.mtime AS "Added"
-FROM ""
-WHERE type = "reading" OR contains(tags, "#reading")
-SORT file.mtime DESC
-```
+## Current Projects
+- Example pentest campaign: [[Pentest Campaign/Reports/Example Campaign/Overview]]
+- Burp Suite practice area: [[Pentest Campaign/Projects/Burp Suite Playground/README]]
+- Scripts & automations: `Automation/`
 
-## Study Hubs
-- [[Templates/Algorithm]] • [[Templates/Data_Structure]] • [[Templates/Concept]]
-- [[Templates/Lecture_Note]] • [[Templates/Problem_Set]] • [[Templates/Exam_Review]]
-- [[Templates/Reading_Summary]] • [[Templates/Links]]
+## Reference & Resources
+- Tags and taxonomy: [[Tags/Index]]
+- Templates index: [[Templates/Templates_Hub]]
+- Tools list: [[00_Index/Tools_Hub]]
+- Reports and findings: [[00_Index/Reports_Hub]]
+- Courses and class notes: [[00_Index/Courses_Hub]]
 
-## Domain Hubs
-- [[00_Index/Pentesting_Hub]] • [[00_Index/Networking_Hub]] • [[00_Index/Forensics_Hub]]
-- [[00_Index/Malware_Hub]] • [[00_Index/Cryptography_Hub]]
-- [[00_Index/Scripting_Hub]] • [[00_Index/Docker_Hub]] • [[00_Index/Cloud_Hub]] • [[00_Index/Packages_Hub]]
-- Evidence: [[00_Index/Evidence_Hub]] • Tools: [[00_Index/Tools_Hub]] • Reports: [[00_Index/Reports_Hub]]
+## Helpful Commands
+- Sync vault: `C:\Users\joshp\Scripts\sync_offsecdev.ps1 -Execute`
+- Backup: `robocopy "C:\OffsecDEV\OffsecDEV_Root" "D:\Vault_Backup" /MIR`
+- Find text: `Get-ChildItem -Recurse | Select-String "search term"`
 
-## Maintenance (Windows / PowerShell)
-| Action | Command |
-|--------|---------|
-| Sync local → OneDrive | `C:\Users\joshp\Scripts\sync_offsecdev.ps1 -Execute` |
-| Dry-run sync | `C:\Users\joshp\Scripts\sync_offsecdev.ps1` |
-| Export Vault | `robocopy "C:\OffsecDEV\OffsecDEV_Root" "D:\Vault_Backup" /MIR` |
-| Search by Tag | `Get-ChildItem -Recurse | Select-String "#pentesting"` |
-
-## Principle
-Structure enables discovery. Discovery builds intelligence. Intelligence empowers execution.
+Keep your notes short, clear, and linked. If a page starts to feel heavy, break it into smaller notes and connect them with `[[links]]`.

@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: lang-note
 language: Ruby
@@ -10,7 +10,7 @@ cssclass: cs-note
 # <% tp.file.title %>
 
 > [!meta]
-> Language: Ruby • Topic:  
+> Language: Ruby | Topic:  
 > Date: <% tp.date.now('YYYY-MM-DD') %>
 
 ## Concept
@@ -35,8 +35,12 @@ greet("Josh")
 - 
 
 ## Related
-[[Templates/Ruby]], [[Templates/Algorithm]], [[Templates/Data_Structure]]
+- [[Templates/Ruby]]
+- [[Templates/Algorithm]]
+- [[Templates/Data_Structure]]
 
 ## References
 Ruby docs
+
+
 

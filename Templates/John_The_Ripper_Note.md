@@ -1,4 +1,4 @@
----
+﻿---
 title: "John the Ripper"
 type: tool-note
 tool: john
@@ -22,4 +22,5 @@ Use --fork for multicore; ensure correct hash format.
 
 ## References
 - https://www.openwall.com/john/
+
 

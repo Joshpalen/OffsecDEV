@@ -1,36 +1,17 @@
----
-title: "<% tp.file.title %>"
-type: infra-note
-domain: NIDS
-created: "<% tp.date.now('YYYY-MM-DD') %>"
-tags: [ids, networking]
-cssclass: cs-note
+﻿---
+title: "NIDS Notes"
+tags: [ids]
+cssclass: simple-note
 ---
 
-# <% tp.file.title %>
+# NIDS Notes
 
-## Objective
-Design, deployment, tuning, and alert triage for network IDS.
+## Deployment
+- Sensor location:
+- Traffic covered:
 
-## Architecture
-- Sensor placement:  
-- Tap/mirror config:  
-- Traffic coverage:  
+## Alerts / Cases
+- Summary and actions
 
-## Tuning
-- Suppress noisy SIDs  
-- Threshold rules  
-- Enrich logs with context
-
-## Monitoring
-Dataview or SIEM dashboards, alert review cadence.
-
-## Evidence
-Locations for pcaps, alerts, and dashboards.
-
-## Next Steps
-- 
-
-## References
-NIDS comparisons, best practices
-
+## Improvements
+- Tunings or follow-up tasks

@@ -7,7 +7,7 @@ cssclass: cs-note
 # Data Protection Strategies
 
 ## Overview
-Protecting data is a core security objective. Effective programs combine multiple strategies across the data lifecycle — at rest, in transit, and in use — to achieve confidentiality, integrity, availability, and accountability.
+Protecting data is a core security objective. Effective programs combine multiple strategies across the data lifecycle - at rest, in transit, and in use - to achieve confidentiality, integrity, availability, and accountability.
 
 ## 1) Encryption
 Turns plaintext into ciphertext to prevent unauthorized disclosure.
@@ -16,8 +16,8 @@ Turns plaintext into ciphertext to prevent unauthorized disclosure.
 |------|-------------|------|------|
 | Symmetric (AES) | One key to encrypt/decrypt | Fast, great for bulk | Key distribution
 | Asymmetric (RSA/ECC) | Keypair (public/private) | Key exchange, signatures | Slower
-| Full‑disk | Encrypts entire volumes | Device loss protection | Only protects when powered off
-| App/Field | Encrypt specific fields | Fine‑grained | Key mgmt complexity
+| Full-disk | Encrypts entire volumes | Device loss protection | Only protects when powered off
+| App/Field | Encrypt specific fields | Fine-grained | Key mgmt complexity
 | Transport (TLS/IPsec) | Secures network comms | Prevents MITM/sniffing | Cert lifecycle
 
 Principle: Confidentiality.
@@ -27,20 +27,20 @@ Restricts who can view/modify data.
 
 | Model | Description | Pros | Cons |
 |------|-------------|------|------|
-| RBAC | Role‑based access | Scalable | Role sprawl
-| ABAC | Attribute‑based (context) | Fine‑grained/dynamic | Complex
+| RBAC | Role-based access | Scalable | Role sprawl
+| ABAC | Attribute-based (context) | Fine-grained/dynamic | Complex
 | MAC | Labels/clearance | Strong policy | Rigid
 | DAC | Owner decides | Simple | Risky decisions
 
-Principle: Least privilege & need‑to‑know.
+Principle: Least privilege & need-to-know.
 
 ## 3) Masking & Tokenization
-Reduces exposure in non‑prod/shared contexts.
+Reduces exposure in non-prod/shared contexts.
 
 | Technique | Description | Pros | Cons |
 |-----------|-------------|------|------|
 | Static masking | Irreversible obfuscation on copies | Safe for test/analytics | Not recoverable
-| Dynamic masking | On‑the‑fly concealment | Live DB protection | Perf impact
+| Dynamic masking | On-the-fly concealment | Live DB protection | Perf impact
 | Tokenization | Reversible tokens in vault | PCI/PII friendly | Infra required
 
 Principle: Data minimization.
@@ -61,9 +61,9 @@ Ensures data remains accurate and untampered.
 
 | Technique | Description | Pros | Cons |
 |----------|-------------|------|------|
-| Hashing | One‑way fingerprint | Detects change | No prevention
+| Hashing | One-way fingerprint | Detects change | No prevention
 | Digital signatures | Hash + public key | Source + integrity | Key compromise risk
-| Checksums/CRC | Transmission/storage checks | Detects corruption | Not crypto‑strong
+| Checksums/CRC | Transmission/storage checks | Detects corruption | Not crypto-strong
 
 Principle: Integrity.
 
@@ -74,20 +74,20 @@ Ensures recoverability and continuity.
 |-------|-------------|------|------|
 | Full | Complete copy | Simple restore | Storage heavy
 | Incremental/Diff | Only changes | Efficient storage | Slower restore
-| Replication | Real‑time copy | Near‑instant failover | Replicates corruption
-| Immutable | Write‑once | Ransomware‑resistant | Mgmt overhead
+| Replication | Real-time copy | Near-instant failover | Replicates corruption
+| Immutable | Write-once | Ransomware-resistant | Mgmt overhead
 
 Principle: Availability & recovery.
 
 ## 7) Classification & Lifecycle
-Govern controls across data’s life.
+Govern controls across data's life.
 
 | Phase | Example Control |
 |-------|------------------|
 | Creation | Label sensitivity (Public/Internal/Confidential) |
 | Storage | Encrypt, restrict access, retention |
 | Usage | Enforce policies, monitor DLP |
-| Archival | Long‑term secure storage |
+| Archival | Long-term secure storage |
 | Destruction | Secure wipe or physical destroy |
 
 Principle: Governance.
@@ -99,7 +99,7 @@ Principle: Governance.
 | Encryption | Confidentiality | Exposure control | External storage/transit |
 | Access Control | Authorization | Limits access | Internal apps/systems |
 | Mask/Tokenize | Privacy | Limits exposure | Lower envs/data sharing |
-| DLP | Monitoring | Detects exfiltration | High‑risk environments |
+| DLP | Monitoring | Detects exfiltration | High-risk environments |
 | Integrity | Verification | Detects tampering | Critical transactions |
 | Backup/DR | Continuity | Recovery | Disaster scenarios |
 | Lifecycle | Governance | Aligns controls | Enterprise data mgmt |
@@ -107,3 +107,4 @@ Principle: Governance.
 ## References
 - NIST CSF, ISO 27001, CIS Controls v8
 - OWASP, PCI DSS guidance
+

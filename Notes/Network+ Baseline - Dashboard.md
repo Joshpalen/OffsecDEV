@@ -1,24 +1,17 @@
----
-title: "Network+ Baseline — Dashboard"
-type: course-dashboard
-course: "[[Network+ Baseline]]"
-tags: [dashboard]
-cssclass: cs-note
+﻿---
+title: "Network+ Baseline Dashboard"
+tags: [course]
+cssclass: simple-note
 ---
 
-# Network+ Baseline — Dashboard
+# Network+ Baseline Dashboard
 
-## Topics
-```dataview
-TABLE file.name AS "Topic", file.mtime AS "Updated"
-FROM "Notes/Network+ Baseline"
-SORT file.mtime DESC
-```
+Use this page to keep high-level progress notes for the Network+ study track.
 
-## Action Items
-```dataview
-TASK
-FROM "Notes/Network+ Baseline"
-SORT file.mtime DESC
-```
+- Notes live in `Notes/Network+ Baseline/`
+- Use the general note template for each topic
+- Track next actions here if you need them
 
+## Next Steps
+- [ ] Topic to review
+- [ ] Practice exam / lab

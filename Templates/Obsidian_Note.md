@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: obsidian-note
 created: "<% tp.date.now('YYYY-MM-DD') %>"
@@ -37,4 +37,5 @@ cssclass: cs-note
 
 ## References
 Obsidian help, Dataview docs
+
 

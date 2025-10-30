@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 tags: [social-engineering, red-team, playbook]
 created: <% tp.date.now("YYYY-MM-DD") %>
@@ -14,7 +14,7 @@ ethics_confirmed: false
 cssclass: cs-note
 ---
 
-# Social Engineering Playbook — <% tp.file.title %>
+# Social Engineering Playbook - <% tp.file.title %>
 
 > [!warning] Safety & Authorization
 > Ensure authorization_reference is present and signed, scope approved, and ethics_confirmed is true. Pause and escalate on any deviation.
@@ -24,7 +24,7 @@ cssclass: cs-note
 - Authorization / ROE: <% tp.frontmatter.authorization_reference %>  
 - Type: <% tp.frontmatter.campaign_type %>  
 - Scope: <% tp.frontmatter.target_scope %>  
-- Window: <% tp.frontmatter.planned_start %> → <% tp.frontmatter.planned_end %>  
+- Window: <% tp.frontmatter.planned_start %> to <% tp.frontmatter.planned_end %>  
 - Status: <% tp.frontmatter.status %>  
 - Owner / Operator: <% tp.system.prompt('Operator / Red-team member?') %>
 
@@ -140,4 +140,6 @@ Thanks,
 - Operator: <% tp.system.prompt('Operator initials?') %>  
 - Client approver: <% tp.system.prompt('Client approver initials?') %>  
 - Date: <% tp.date.now("YYYY-MM-DD") %>
+
+
 

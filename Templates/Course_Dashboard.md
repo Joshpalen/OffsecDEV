@@ -1,48 +1,19 @@
----
+﻿---
 title: "<% tp.file.title %>"
-type: course-dashboard
-course: "[[<% tp.system.prompt('Link to course page (or name)') %>]]"
-tags: [course, dashboard]
-cssclass: cs-note
+tags: [course]
+cssclass: simple-note
 ---
 
 # <% tp.file.title %>
 
-> [!meta]
-> Course: <% tp.frontmatter.course %>
+Use this page to list lectures, assignments, and important links for the course.
 
 ## Lectures
-```dataview
-TABLE file.name AS "Lecture", date
-FROM ""
-WHERE type = "lecture" AND course = this.course
-SORT date ASC
-```
+- [[Lecture note]]
 
-## Problem Sets
-```dataview
-TABLE file.name AS "Set", due
-FROM ""
-WHERE type = "problem-set" AND course = this.course
-SORT due ASC
-```
+## Assignments
+- [[Problem set]]
 
-## Readings
-```dataview
-TABLE file.name AS "Reading", year, authors
-FROM ""
-WHERE type = "reading" AND course = this.course
-SORT file.ctime ASC
-```
-
-## Exam Reviews
-```dataview
-TABLE file.name AS "Exam", date
-FROM ""
-WHERE type = "exam-review" AND course = this.course
-SORT date ASC
-```
-
-## Links
-- Course Overview: <% tp.frontmatter.course %>
+## Resources
+- Link or document
 

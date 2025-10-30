@@ -1,35 +1,29 @@
 ---
 title: "Tools Hub"
 tags: [index, tool]
-cssclass: cs-note
+cssclass: simple-note
 ---
 
 # Tools Hub
 
-## Quick Links
-- Metasploit → [[Templates/Metasploit_Note]]
-- Nmap → [[Templates/Nmap_Note]]
-- Wireshark → [[Templates/Wireshark_Note]]
-- Snort → [[Templates/Snort_Note]]
-- Burp Suite → [[Templates/Burp_Suite_Note]]
-- ffuf → [[Templates/FFUF_Note]]
-- gobuster → [[Templates/Gobuster_Note]]
-- nikto → [[Templates/Nikto_Note]]
-- hydra → [[Templates/Hydra_Note]]
-- john → [[Templates/John_The_Ripper_Note]]
-- hashcat → [[Templates/Hashcat_Note]]
-- sqlmap → [[Templates/SQLMap_Note]]
+Keep one note per tool. Use the list below to jump straight to a template or an existing note folder.
 
-```dataview
-TABLE category, platforms, status
-FROM ""
-WHERE type = "tool" OR contains(tags, "#tool")
-SORT file.name ASC
-```
+## Create a Tool Note
+- Template: [[Templates/Tool_Template]]
+- QuickAdd: "New Tool Note"
 
-```dataview
-TABLE tool, file.mtime AS "Updated"
-FROM ""
-WHERE type = "tool-note"
-SORT file.mtime DESC
-```
+## Common Tools
+- [[Templates/Nmap_Note]]
+- [[Templates/Metasploit_Note]]
+- [[Templates/Burp_Suite_Note]]
+- [[Templates/FFUF_Note]]
+- [[Templates/Gobuster_Note]]
+- [[Templates/Nikto_Note]]
+- [[Templates/Hydra_Note]]
+- [[Templates/John_The_Ripper_Note]]
+- [[Templates/Hashcat_Note]]
+- [[Templates/SQLMap_Note]]
+- [[Templates/Wireshark_Note]]
+- [[Templates/Snort_Note]]
+
+Tool notes you create are saved under `Notes/Tools/`. Add new ones as you learn them.

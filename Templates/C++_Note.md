@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: lang-note
 language: C++
@@ -10,7 +10,7 @@ cssclass: cs-note
 # <% tp.file.title %>
 
 > [!meta]
-> Language: C++ • Topic:  
+> Language: C++ -$ Topic:  
 > Date: <% tp.date.now('YYYY-MM-DD') %>
 
 ## Concept
@@ -38,4 +38,6 @@ int main(){ cout << "Hello" << endl; }
 
 ## References
 cppreference.com, docs
+
+
 

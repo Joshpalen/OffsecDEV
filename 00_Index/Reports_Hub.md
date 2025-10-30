@@ -1,14 +1,13 @@
 ---
 title: "Reports Hub"
 tags: [index, reports]
-cssclass: cs-note
+cssclass: simple-note
 ---
 
 # Reports Hub
 
-```dataview
-TABLE file.name AS "Report", file.folder AS "Folder", file.mtime AS "Updated"
-FROM "Pentest Campaign/Reports"
-SORT file.mtime DESC
-```
+Store final reports under `Pentest Campaign/Reports/<campaign>/`.
 
+- Example report: [[Pentest Campaign/Reports/Example Campaign/06-Reporting/Final_Report]]
+- Finding template: [[Pentest Campaign/Reports/Example Campaign/06-Reporting/Findings/Finding_Template]]
+- Evidence guidance: [[00_Index/Evidence_Hub]]

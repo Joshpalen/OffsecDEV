@@ -1,4 +1,4 @@
----
+﻿---
 title: "JavaScript"
 type: language
 tags: [cs, language, javascript]
@@ -38,9 +38,11 @@ try { risky(); } catch (e) { console.error(e); } finally { cleanup(); }
 | Install | `npm i <pkg>` |
 
 ## Related
-[[Templates/Algorithm]] • [[Templates/Data_Structure]] • [[Templates/Concept]]
+[[Templates/Algorithm]] -$ [[Templates/Data_Structure]] -$ [[Templates/Concept]]
 
 ## Resources
 - MDN: https://developer.mozilla.org/
 - Node.js: https://nodejs.org/
+
+
 

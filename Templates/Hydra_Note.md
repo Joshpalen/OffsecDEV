@@ -1,4 +1,4 @@
----
+﻿---
 title: "hydra"
 type: tool-note
 tool: hydra
@@ -23,4 +23,5 @@ Follow ROE; throttle to avoid lockouts.
 
 ## References
 - https://github.com/vanhauser-thc/thc-hydra
+
 

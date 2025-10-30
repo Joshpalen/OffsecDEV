@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dockerfile"
 type: docker
 tags: [docker]
@@ -54,4 +54,5 @@ CMD ["./app"]
 
 ## References
 Docker docs and best practices
+
 

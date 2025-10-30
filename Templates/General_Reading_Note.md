@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: reading
 created: "<% tp.date.now('YYYY-MM-DD') %>"
@@ -27,4 +27,5 @@ Brief summary of the content / key points.
 
 ## Notes
 Quotable excerpts or timestamped notes
+
 

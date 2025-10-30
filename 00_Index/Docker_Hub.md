@@ -1,14 +1,12 @@
 ---
 title: "Docker Hub"
-tags: [hub, docker, index]
-cssclass: cs-note
+tags: [hub, docker]
+cssclass: simple-note
 ---
 
 # Docker Hub
 
-```dataview
-TABLE file.name AS "Note", file.mtime AS "Updated"
-FROM ""
-WHERE any(contains(file.tags, "#docker"), contains(file.tags, "#dockerfile"))
-SORT file.mtime DESC
-```
+Keep container notes and commands concise.
+
+- Notes folder: `Notes/Docker/`
+- Reference template: [[Templates/Dockerfile_Note]]

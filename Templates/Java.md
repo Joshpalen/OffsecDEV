@@ -1,4 +1,4 @@
----
+﻿---
 title: "Java"
 type: language
 tags: [cs, language, java]
@@ -41,9 +41,11 @@ try { risky(); } catch (Exception e) { e.printStackTrace(); } finally { cleanup(
 List, Map, Set via `java.util` with generics: `List<String> xs = new ArrayList<>();`
 
 ## Related
-[[Templates/Algorithm]] • [[Templates/Data_Structure]] • [[Templates/Concept]]
+[[Templates/Algorithm]] -$ [[Templates/Data_Structure]] -$ [[Templates/Concept]]
 
 ## Resources
 - Docs: https://docs.oracle.com/en/java/
 - OpenJDK: https://openjdk.org/
+
+
 

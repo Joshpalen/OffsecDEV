@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: reading
 created: "<% tp.date.now('YYYY-MM-DD') %>"
@@ -9,7 +9,7 @@ cssclass: cs-note
 # <% tp.file.title %>
 
 ## Source
-Author/Source • Accessed: <% tp.date.now('YYYY-MM-DD') %>
+Author/Source -$ Accessed: <% tp.date.now('YYYY-MM-DD') %>
 
 ## Summary
 Brief description.
@@ -28,4 +28,6 @@ What you learned and connections to other notes.
 
 ## Attachments
 Links or files
+
+
 

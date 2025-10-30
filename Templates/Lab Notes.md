@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: lab
 project: "[[Project / Campaign]]"
@@ -12,7 +12,7 @@ cssclass: cs-note
 # <% tp.file.title %>
 
 > [!meta]
-> Project: [[Project / Campaign]] • Date: <% tp.date.now('YYYY-MM-DD') %>  
+> Project: [[Project / Campaign]] -$ Date: <% tp.date.now('YYYY-MM-DD') %>  
 > Environment:  
 > Location: 
 
@@ -54,4 +54,6 @@ Interpret findings. Did you achieve the objective? Any unexpected behavior?
 - Evidence folder: `./Evidence/`  
 - Related Notes:  
 - External References: 
+
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "gobuster"
 type: tool-note
 tool: gobuster
@@ -28,4 +28,5 @@ Mind status codes; whitelist relevant ones.
 
 ## References
 - https://github.com/OJ/gobuster
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "ffuf"
 type: tool-note
 tool: ffuf
@@ -25,4 +25,5 @@ Tune filters: -fs (size), -fw (words), -fc (status). Respect scope.
 
 ## References
 - https://github.com/ffuf/ffuf
+
 

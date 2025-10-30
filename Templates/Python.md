@@ -1,4 +1,4 @@
----
+﻿---
 title: "Python"
 type: language
 tags: [cs, language, python]
@@ -96,10 +96,14 @@ deactivate
 - Prefer logging to print
 
 ## Related
-[[Templates/Algorithm]] • [[Templates/Data_Structure]] • [[Templates/Concept]]
+- [[Templates/Algorithm]]
+- [[Templates/Data_Structure]]
+- [[Templates/Concept]]
 
 ## Resources
 - Docs: https://docs.python.org/3/
 - PEP 8: https://peps.python.org/pep-0008/
 - Cheat sheet: https://github.com/gto76/python-cheatsheet
+
+
 

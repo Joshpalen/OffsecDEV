@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: lang-note
 language: Python
@@ -10,7 +10,7 @@ cssclass: cs-note
 # <% tp.file.title %>
 
 > [!meta]
-> Language: Python • Topic:  
+> Language: Python | Topic:  
 > Date: <% tp.date.now('YYYY-MM-DD') %>
 
 ## Concept
@@ -35,8 +35,12 @@ def example():
 - 
 
 ## Related
-[[Templates/Python]], [[Templates/Algorithm]], [[Templates/Data_Structure]]
+- [[Templates/Python]]
+- [[Templates/Algorithm]]
+- [[Templates/Data_Structure]]
 
 ## References
 Links or docs
+
+
 

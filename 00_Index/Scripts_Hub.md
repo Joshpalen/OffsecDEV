@@ -1,21 +1,13 @@
 ---
 title: "Scripts Hub"
 tags: [index, scripts]
-cssclass: cs-note
+cssclass: simple-note
 ---
 
 # Scripts Hub
 
-> Tip: Add short .md wrapper notes for important scripts with usage and examples, tagged `#script`.
+Keep helper scripts and their notes together.
 
-```dataview
-TABLE file.name AS "Script Note", file.folder AS "Location", file.mtime AS "Updated"
-FROM ""
-WHERE contains(tags, "#script")
-SORT file.mtime DESC
-```
-
-Other script locations of interest:
-- `Automation/Scripts`
-- `Pentest Campaign/Reports/*/Scripts`
-
+- Main folder: `Automation/Scripts/`
+- Campaign scripts: `Pentest Campaign/Reports/<campaign>/Scripts/`
+- When a script matters, create a short note explaining inputs, outputs, and where to run it.

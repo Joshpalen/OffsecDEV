@@ -1,14 +1,12 @@
----
+﻿---
 title: "Packages Hub"
-tags: [hub, packages, index]
-cssclass: cs-note
+tags: [hub, packages]
+cssclass: simple-note
 ---
 
 # Packages Hub
 
-```dataview
-TABLE file.name AS "Note", file.mtime AS "Updated"
-FROM ""
-WHERE any(contains(file.tags, "#packages"), contains(file.tags, "#dependency"))
-SORT file.mtime DESC
-```
+Keep track of libraries, versions, and install notes.
+
+- Folder suggestion: `Notes/Packages/`
+- Template: [[Templates/Packages_Note]]

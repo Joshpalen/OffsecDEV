@@ -1,7 +1,7 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: algorithm
-category: "Searching / Sorting / Graph / DP / …"
+category: "Searching / Sorting / Graph / DP / -|"
 input: ""
 output: ""
 complexity: {time: "", space: ""}
@@ -34,7 +34,7 @@ procedure NAME(args):
 - Space: 
 
 ## Examples
-- Input → output, edge cases
+- Input -*' output, edge cases
 
 ## Implementations
 ```python
@@ -48,4 +48,6 @@ def algo(...):
 
 ## Notes
 Variants, optimizations, and common pitfalls.
+
+
 

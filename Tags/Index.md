@@ -6,7 +6,7 @@ cssclass: cs-note
 
 # Tag Index
 
-Purpose: Central taxonomy and tag reference for the vault.
+Purpose: central taxonomy and tag reference for the vault.
 
 ## Core Structural Tags
 | Tag | Purpose |
@@ -19,7 +19,7 @@ Purpose: Central taxonomy and tag reference for the vault.
 | `#concept` | Theory or design notes |
 | `#workflow` | Processes and procedures |
 | `#project` | Active campaigns or efforts |
-| `#archive` | Completed or deprecated |
+| `#archive` | Completed or deprecated items |
 
 ## Domain / Subject Tags
 | Tag | Domain |
@@ -27,8 +27,8 @@ Purpose: Central taxonomy and tag reference for the vault.
 | `#networking` | Subnets, routing, packet analysis |
 | `#pentesting` | Exploitation, recon, payloads |
 | `#osint` | Open-source intelligence |
-| `#forensics` | Evidence analysis, IR |
-| `#malware` | RE, signatures, samples |
+| `#forensics` | Evidence analysis, incident response |
+| `#malware` | Reverse engineering, signatures, samples |
 | `#cryptography` | Encryption, hashing, keys |
 | `#scripting` | Python, Bash, PowerShell |
 | `#firewall` | ACLs, rules, segmentation |
@@ -52,14 +52,14 @@ Purpose: Central taxonomy and tag reference for the vault.
 | `#obsidian` | Obsidian |
 | `#nids` | NIDS |
 | `#acid` | ACID |
-| `#packages` | Package mgmt |
+| `#packages` | Package management |
 | `#dockerfile` | Docker builds |
 
-## Meta-Organizational Tags
+## Meta-Organisational Tags
 | Tag | Purpose |
 |-----|---------|
 | `#priority/high` | Needs attention soon |
-| `#pending` | WIP notes |
+| `#pending` | Work in progress |
 | `#todo` | Tasks to complete |
 | `#complete` | Finished items |
 | `#core` | Foundational structure |
@@ -85,7 +85,6 @@ tags: [tool, pentesting, core]
 ## Tag Governance
 Rules to prevent tag sprawl:
 1. Use lowercase where possible (except hierarchical tags like `#priority/high`).
-2. Keep tags short and semantic.
-3. Add tags only when existing ones don’t fit.
+2. Keep tags short and meaningful.
+3. Add tags only when existing ones do not fit.
 4. Update this index when introducing new tags.
-

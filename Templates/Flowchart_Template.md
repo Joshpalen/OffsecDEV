@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: diagram
 tags: [diagram, flowchart]
@@ -19,3 +19,4 @@ flowchart TD
 
 ## Canvas
 Consider using Canvas files for complex diagrams.
+

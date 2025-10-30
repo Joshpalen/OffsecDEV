@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: tool-note
 tool: zsh
@@ -28,4 +28,5 @@ alias ll='ls -alh'
 
 ## References
 Zsh docs
+
 

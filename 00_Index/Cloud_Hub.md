@@ -1,14 +1,12 @@
----
+﻿---
 title: "Cloud Hub"
-tags: [hub, cloud, index]
-cssclass: cs-note
+tags: [hub, cloud]
+cssclass: simple-note
 ---
 
 # Cloud Hub
 
-```dataview
-TABLE file.name AS "Note", file.mtime AS "Updated"
-FROM ""
-WHERE any(contains(file.tags, "#cloud"), contains(file.tags, "#aws"), contains(file.tags, "#azure"), contains(file.tags, "#gcp"))
-SORT file.mtime DESC
-```
+Track AWS/Azure/GCP notes here.
+
+- Suggested folder: `Notes/Cloud/`
+- Use [[Templates/All_Purpose_Note]] or [[Templates/Concept]] for services and patterns.

@@ -1,84 +1,100 @@
-{
-  "choices": [
-    {
-      "name": "New Tool Note",
-      "type": "capture",
-      "captureTo": "Notes/Tools/{{VALUE}}.md",
-      "templatePath": "Templates/Tool_Template.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    },
-    {
-      "name": "New Campaign (Overview)",
-      "type": "capture",
-      "captureTo": "Pentest Campaign/Reports/{{VALUE}}/Overview.md",
-      "templatePath": "Templates/Campaign_Overview.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    },
-    {
-      "name": "New Finding",
-      "type": "capture",
-      "captureTo": "Pentest Campaign/Reports/Example Campaign/06-Reporting/Findings/{{DATE:YYYYMMDD}}_Finding.md",
-      "templatePath": "Pentest Campaign/Reports/Example Campaign/06-Reporting/Findings/Finding_Template.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    },
-    {
-      "name": "New Burp Log",
-      "type": "capture",
-      "captureTo": "Pentest Campaign/Projects/Burp Suite Playground/Requests/{{DATE:YYYYMMDD}}_{{VALUE}}.md",
-      "templatePath": "Templates/Burp_Request_Log.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    },
-    {
-      "name": "New Lecture",
-      "type": "capture",
-      "captureTo": "Notes/Southern New Hampshire/Class Notes/{{DATE:YYYY}}/{{VALUE}}.md",
-      "templatePath": "Templates/Lecture_Note.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    },
-    {
-      "name": "New Problem Set",
-      "type": "capture",
-      "captureTo": "Notes/Southern New Hampshire/{{VALUE}}.md",
-      "templatePath": "Templates/Problem_Set.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    },
-    {
-      "name": "New Algorithm",
-      "type": "capture",
-      "captureTo": "Notes/Algorithms/{{VALUE}}.md",
-      "templatePath": "Templates/Algorithm.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    },
-    {
-      "name": "New Data Structure",
-      "type": "capture",
-      "captureTo": "Notes/Data Structures/{{VALUE}}.md",
-      "templatePath": "Templates/Data_Structure.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    },
-    {
-      "name": "New Concept",
-      "type": "capture",
-      "captureTo": "Notes/Concepts/{{VALUE}}.md",
-      "templatePath": "Templates/Concept.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    },
-    {
-      "name": "New Reading",
-      "type": "capture",
-      "captureTo": "Notes/Readings/{{DATE:YYYY}}/{{VALUE}}.md",
-      "templatePath": "Templates/Reading_Summary.md",
-      "openFileInNewTab": true,
-      "createIfNotFound": true
-    }
-  ]
+﻿{
+    "choices":  [
+                    {
+                        "name":  "New Note",
+                        "type":  "capture",
+                        "captureTo":  "Notes/{{DATE:yyyy}}/{{VALUE}}.md",
+                        "templatePath":  "Templates/All_Purpose_Note.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Tool Note",
+                        "type":  "capture",
+                        "captureTo":  "Notes/Tools/{{VALUE}}.md",
+                        "templatePath":  "Templates/Tool_Template.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Campaign (Overview)",
+                        "type":  "capture",
+                        "captureTo":  "Pentest Campaign/Reports/{{VALUE}}/Overview.md",
+                        "templatePath":  "Templates/Campaign_Overview.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Finding",
+                        "type":  "capture",
+                        "captureTo":  "Pentest Campaign/Reports/Example Campaign/06-Reporting/Findings/{{DATE:YYYYMMDD}}_Finding.md",
+                        "templatePath":  "Pentest Campaign/Reports/Example Campaign/06-Reporting/Findings/Finding_Template.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Pentest Session",
+                        "type":  "capture",
+                        "captureTo":  "Pentest Campaign/Notes/{{DATE:yyyyMMdd}}_{{VALUE}}.md",
+                        "templatePath":  "Templates/Pentest_Session_Note.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Burp Log",
+                        "type":  "capture",
+                        "captureTo":  "Pentest Campaign/Projects/Burp Suite Playground/Requests/{{DATE:YYYYMMDD}}_{{VALUE}}.md",
+                        "templatePath":  "Templates/Burp_Request_Log.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Lecture",
+                        "type":  "capture",
+                        "captureTo":  "Notes/Southern New Hampshire/Class Notes/{{DATE:YYYY}}/{{VALUE}}.md",
+                        "templatePath":  "Templates/Lecture_Note.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Problem Set",
+                        "type":  "capture",
+                        "captureTo":  "Notes/Southern New Hampshire/{{VALUE}}.md",
+                        "templatePath":  "Templates/Problem_Set.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Algorithm",
+                        "type":  "capture",
+                        "captureTo":  "Notes/Algorithms/{{VALUE}}.md",
+                        "templatePath":  "Templates/Algorithm.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Data Structure",
+                        "type":  "capture",
+                        "captureTo":  "Notes/Data Structures/{{VALUE}}.md",
+                        "templatePath":  "Templates/Data_Structure.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Concept",
+                        "type":  "capture",
+                        "captureTo":  "Notes/Concepts/{{VALUE}}.md",
+                        "templatePath":  "Templates/Concept.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    },
+                    {
+                        "name":  "New Reading",
+                        "type":  "capture",
+                        "captureTo":  "Notes/Readings/{{DATE:YYYY}}/{{VALUE}}.md",
+                        "templatePath":  "Templates/Reading_Summary.md",
+                        "openFileInNewTab":  true,
+                        "createIfNotFound":  true
+                    }
+                ]
 }

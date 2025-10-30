@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 tags:
   - review
@@ -43,4 +43,5 @@ cssclass: cs-note
 
 ## Quick Flashcards (inline syntax)
 > For the Flashcards plugin (or for self-quiz later)
+
 

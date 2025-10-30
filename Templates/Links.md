@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 tags: [links, reference, resource]
 created: "<% tp.date.now('YYYY-MM-DD') %>"
@@ -42,4 +42,5 @@ cssclass: cs-note
 - [[00_Index/Master Index]]
 - [[Tags/Index]]
 - [[00_Index/Reading Log]]
+
 

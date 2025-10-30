@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 type: lang-note
 language: Java
@@ -10,7 +10,7 @@ cssclass: cs-note
 # <% tp.file.title %>
 
 > [!meta]
-> Language: Java • Topic:  
+> Language: Java -$ Topic:  
 > Date: <% tp.date.now('YYYY-MM-DD') %>
 
 ## Concept
@@ -36,4 +36,6 @@ class Main { public static void main(String[] args) { System.out.println("Hello"
 
 ## References
 Docs or guides
+
+
 

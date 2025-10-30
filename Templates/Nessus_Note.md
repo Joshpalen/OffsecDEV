@@ -1,38 +1,20 @@
----
-title: "<% tp.file.title %>"
-type: tool-note
-tool: Nessus
-created: "<% tp.date.now('YYYY-MM-DD') %>"
-tags: [tool, nessus, vuln]
-cssclass: cs-note
+﻿---
+title: "Nessus Scan"
+tags: [tool, vulnerability]
+cssclass: simple-note
 ---
 
-# <% tp.file.title %>
+# Nessus Scan Summary
 
-> [!meta]
-> Scan name:  • Date: <% tp.date.now('YYYY-MM-DD') %>
+## Scan Details
+- Targets:
+- Policy:
+- Date:
 
-## Objective
-Vulnerability scanning and risk assessment.
+## Findings of Interest
+- High: 
+- Medium: 
+- Low: 
 
-## Setup
-- Policy:  
-- Targets:  
-- Credentials: 
-
-## Findings
-| Host | Vuln | Severity | Plugin | Notes |
-|------|------|----------|--------|-------|
-|  |  |  |  |  |
-
-## Exports
-- Report files: `.nessus`, `.csv` locations
-
-## Next Steps
-- Validate criticals  
-- Create tickets  
-- Plan remediation
-
-## References
-Tenable docs
-
+## Notes
+Add remediation ideas or tickets raised.

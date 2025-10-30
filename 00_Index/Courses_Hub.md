@@ -1,36 +1,20 @@
 ---
 title: "Courses Hub"
 tags: [index, courses]
-cssclass: cs-note
+cssclass: simple-note
 ---
 
 # Courses Hub
 
-```dataview
-TABLE code, term, instructor
-FROM ""
-WHERE type = "course"
-SORT code ASC
-```
+## Course Pages
+- Overview template: [[Templates/University Course Overview]]
+- Dashboard template: [[Templates/Course_Dashboard]]
+- Recent class notes: `Notes/Southern New Hampshire/Class Notes/`
 
-```dataview
-TABLE course, file.name AS "Dashboard"
-FROM ""
-WHERE type = "course-dashboard"
-SORT file.name ASC
-```
+## Capture Shortcuts
+- QuickAdd: "New Lecture" or "New Reading"
+- Use folders inside `Notes/Southern New Hampshire/` to keep classes organised by term
 
-## Class Notes (recent)
-```dataview
-TABLE file.name AS "Note", file.folder AS "Location", file.mtime AS "Updated"
-FROM "Notes/Southern New Hampshire/Class Notes"
-SORT file.mtime DESC
-```
-
-## Education‑Tagged Notes
-```dataview
-TABLE file.name AS "Note", file.folder AS "Location", file.mtime AS "Updated"
-FROM ""
-WHERE contains(file.tags, "#education")
-SORT file.mtime DESC
-```
+## Tips
+- Keep each lecture short (summary, key points, action items)
+- Drop assignments in their own notes using [[Templates/Problem_Set]]

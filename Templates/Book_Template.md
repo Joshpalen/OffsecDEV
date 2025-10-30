@@ -1,4 +1,4 @@
----
+﻿---
 title: "<% tp.file.title %>"
 aliases: []
 tags:
@@ -18,20 +18,22 @@ cssclass: cs-note
 
 > Purpose: High-yield reading with labs that map to OffSec skills.
 
-## Summary (3–5 sentences)
+## Summary (3-5 sentences)
 - 
 
 ## High-Yield Concepts
 - 
 
 ## Chapter Index
-- [[<% tp.file.title %> — Ch01]]
-- [[<% tp.file.title %> — Ch02]]
-- [[<% tp.file.title %> — Ch03]]
+- [[<% tp.file.title %> - Ch01]]
+- [[<% tp.file.title %> - Ch02]]
+- [[<% tp.file.title %> - Ch03]]
 
 ## Action Items
 - [ ] Build lab environment for this book
-- [ ] Extract top 20 commands to a [[Cheat Sheet — <% tp.file.title %>]]
+- [ ] Extract top 20 commands to a [[Cheat Sheet - <% tp.file.title %>]]
 
 ## Related
 - [[00_Index/Master Index]]  [[00_Index/Reading Log]]
+
+

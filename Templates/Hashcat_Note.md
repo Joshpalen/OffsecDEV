@@ -1,4 +1,4 @@
----
+﻿---
 title: "hashcat"
 type: tool-note
 tool: hashcat
@@ -22,4 +22,5 @@ Pick correct mode (-m). Use potfile for recovered hashes.
 
 ## References
 - https://hashcat.net/hashcat/
+
 

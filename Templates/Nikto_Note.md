@@ -1,4 +1,4 @@
----
+﻿---
 title: "nikto"
 type: tool-note
 tool: nikto
@@ -21,4 +21,5 @@ Noisy; use only if allowed. Verify findings.
 
 ## References
 - https://github.com/sullo/nikto
+
 

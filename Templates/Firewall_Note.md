@@ -1,40 +1,20 @@
 ---
 title: "<% tp.file.title %>"
-type: infra-note
-domain: firewall
-created: "<% tp.date.now('YYYY-MM-DD') %>"
-tags: [firewall, networking]
-cssclass: cs-note
+tags: [firewall]
+cssclass: simple-note
 ---
 
-# <% tp.file.title %>
+# Firewall Note - <% tp.file.title %>
 
-## Objective
-Ruleset review, troubleshooting, or new policy rollout.
+## Device / Context
+- Vendor / model:
+- Location / segment:
 
-## Device Info
-- Vendor/Model:  
-- OS/Firmware:  
-- Mgmt IP:  
+## Rules / Changes
+- Describe the change or rule set
 
-## Key Rules / Snippets
-```text
-! Example ACL (Cisco style)
-access-list 101 permit tcp any host 10.0.0.5 eq 443
-access-list 101 deny ip any any
-```
+## Tests
+- How you verified connectivity or policy
 
-## Observations
-- Blocked flows:  
-- NAT issues:  
-- Policy conflicts:  
-
-## Change Log
-- Date / Change / Author / Reason
-
-## Next Actions
-- 
-
-## References
-Vendor docs, rule naming guidelines
-
+## Follow Up
+- [ ] Next review or monitoring action
