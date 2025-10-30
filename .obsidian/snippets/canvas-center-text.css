@@ -1,0 +1,15 @@
+/* Center all text within Canvas cards */
+.canvas-node-container .markdown-rendered,
+.canvas-node-container .markdown-preview-view {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: vertically center single-line text */
+.canvas-node-container .markdown-rendered p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

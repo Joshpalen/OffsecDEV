@@ -1,184 +1,171 @@
-﻿# OffsecDEV — Obsidian Pentesting Vault
+# OffsecDEV — Obsidian Pentesting Vault
 
 [![Obsidian](https://img.shields.io/badge/Obsidian-Vault-483699?logo=obsidian&logoColor=white)](#)
 [![Beginner Friendly](https://img.shields.io/badge/Beginner_Friendly-Yes-brightgreen)](#)
 [![Focus](https://img.shields.io/badge/Focus-Pentesting_%26_Operations-red)](#)
-[![Requires](https://img.shields.io/badge/Requires-Dataview-blue)](#)
-[![Requires](https://img.shields.io/badge/Requires-Templater-blue)](#)
-[![Last commit](https://img.shields.io/github/last-commit/Joshpalen/OffsecDEV)](https://github.com/Joshpalen/OffsecDEV/commits)
-[![Open issues](https://img.shields.io/github/issues/Joshpalen/OffsecDEV)](https://github.com/Joshpalen/OffsecDEV/issues)
 
-A complete, opinionated Obsidian knowledge system for offensive security, networking, and automation. It’s built to guide true beginners into the field while staying useful for seasoned professionals during real assessments.
+A complete, opinionated Obsidian knowledge system for offensive security, networking, and automation. It’s built to guide beginners while staying useful for real assessments.
 
-- Central “Map of Content” indexes that tie everything together
+- Central Map-of-Content hubs that tie everything together
 - Production-ready templates for tools, workflows, vulnerabilities, and reports
 - Automation for evidence collection and campaign organization
-- Compatible with Obsidian community plugins (Dataview, Templater)
+- Works with Obsidian community plugins (Dataview, Templater)
 
-> Goal: Turn scattered learning and ad‑hoc notes into a coherent, searchable operational knowledge system you can actually run campaigns with.
+> Goal: Turn scattered learning and ad-hoc notes into a coherent, searchable operational knowledge system you can actually run campaigns with.
 
 ---
 
 ## Quickstart
 
 1) Install Obsidian and enable community plugins (Settings → Community Plugins)
-- Recommended: Dataview, Templater, (optional) QuickAdd
+- Required: Dataview, Templater
+- Recommended: QuickAdd, Advanced Canvas, Tag Wrangler, Tasks
 
-2) Clone this repository and open it as a vault:
-- `git clone https://github.com/Joshpalen/OffsecDEV C:\OffsecDEV\OffsecDEV_Root`
-- In Obsidian: Open folder as vault → select `C:\OffsecDEV\OffsecDEV_Root`
+2) Open this folder as a vault in Obsidian
+- Clone or copy to a local path (e.g., `C:\OffsecDEV\OffsecDEV_Root`)
+- In Obsidian: “Open folder as vault” → select the folder
 
-3) Start at the hub:
-- Open [Master Index](00_Index/Master%20Index.md)
-- Browse [Vulnerability Index](00_Index/Vulnerability%20index.md) and [Workflow Index](00_Index/Workflow.md)
+3) Start at the hub
+- Open `00_Index/Master Index.md`
+- Explore the domain hubs (Pentesting, Networking, Forensics, etc.)
 
-4) Create notes with templates:
-- Use Templater to instantiate items from the [Templates](Templates) folder
+4) Create notes with templates
+- Use Templater to instantiate items from the `Templates/` folder
+
+See also: `00_Index/Getting_Started.md` for captures and shortcuts.
 
 ---
 
-## What’s Inside
+## Navigation: How This Vault Fits Together
 
-- 00_Index — Master navigation and dashboards
-  - Master Index (Map of Content)
-  - Vulnerability Index (catalog + taxonomy + Dataview dashboards)
-  - Workflow Index (procedures + governance + roll‑ups)
-  - Reading Log (structured learning tracker)
-- Templates — Ready‑to‑use structures for:
-  - Tools: Nmap, Metasploit, Wireshark, Snort, Zsh, Dockerfile
-  - Languages: Python, JavaScript, Java, C#, C++, Ruby, Perl, Zsh
-  - Reports: Pentest report, Findings blocks, Lab notes, Flowcharts
-  - Knowledge: General reading, Links, Networking, Firewall, NIDS
-- Automation — Evidence and campaign helpers
-  - `Automation/Scripts/se_evidence_finder_copy.py`
-  - Example runner: `Pentest Campaign/Reports/Example Campaign/Scripts/Run_Evidence_Finder.ps1`
-- Pentest Campaign — Example structure for running assessments
-- Flowcharts — Obsidian Canvas maps for workflows and architecture
-- Tags — Tag index and taxonomy reference for consistent metadata
-- Notes — Your working knowledge base and research
+This vault is organized around a small set of “hubs” and indices:
+
+- Master Index (`00_Index/Master Index.md`) — Control tower with links to all hubs
+- Domain hubs (`00_Index/*_Hub.md`) — Pentesting, Networking, Forensics, Malware, Crypto, Scripting, Docker, Cloud, Packages
+- Tools Hub (`00_Index/Tools_Hub.md`) — All tooling and operator notes
+- Reports Hub (`00_Index/Reports_Hub.md`) — Finished deliverables and campaign reports
+- Scripts Hub (`00_Index/Scripts_Hub.md`) — Script notes and locations
+- Evidence Hub (`00_Index/Evidence_Hub.md`) — Evidence manifests and indexes
+- Courses/Study Hubs (`00_Index/Courses_Hub.md`) — Coursework dashboards & class notes
+- Algorithms/Data Structures indices — CS learning indexes
+
+Use the hubs + Dataview tables to surface “what matters now” automatically from note metadata.
 
 ---
 
 ## Core Ideas and Workflow
 
-- Map‑of‑Content First: Use the [Master Index](00_Index/Master%20Index.md) as your control tower. Each hub links out to tools, domains, and dashboards.
-- Templates Everywhere: Every recurring thing has a template — tools, workflows, vulnerabilities, reports — so your notes stay consistent.
-- Evidence is a First‑Class Citizen: Automation scripts collect and normalize raw evidence into `Reports/<Campaign>/Evidence/` with a Markdown index.
-- Metadata + Queries: Dataview turns metadata into dashboards (active vulns, workflows, reading queues) to keep you oriented.
-- Campaign‑Ready: Move from reconnaissance → exploitation → reporting with a structure that mirrors how real assessments are run.
+- Map-of-Content first: start at the Master Index; navigate into hubs and dashboards
+- Templates everywhere: everything has a template so notes stay consistent
+- Evidence is first-class: scripts normalize raw evidence into `Reports/<Campaign>/Evidence/`
+- Metadata + queries: Dataview turns metadata into live dashboards
+- Campaign-ready: structure mirrors Recon → Enumeration → Exploitation → Post-Exploitation → Reporting
 
 ---
 
-## Key Templates (Selected)
+## Learning and Development Flow
 
-- Pentest_Report_Template.md — Assessment structure, findings tables, methodology, and summary sections ready to fill.
-- Tool_Template.md — Standardized way to document any tool: install, usage, flags, examples.
-- Nmap_Note.md / Metasploit_Note.md — Focused operator checklists with copy‑paste commands and result fields.
-- General_Reading_Note.md — Capture structured insights, tags, and follow‑ups from any source.
+1) Study a topic using templates (Algorithms, Data Structures, Concept, Reading)
+2) Practice with tool notes (Nmap, Metasploit, ffuf, Burp, etc.)
+3) Run a practice campaign (see `Pentest Campaign/Reports/Example Campaign`)
+4) Capture evidence with scripts and generate finding stubs from scans
+5) Compile a final report from the report template
 
-All templates live in [Templates](Templates) and are compatible with Templater prompts.
-
----
-
-
-## Templates Overview (Full)
-
-- Programming Languages
-  - Python: `Templates/Python.md`, `Templates/Python_Note.md`
-  - JavaScript: `Templates/JavaScript.md`, `Templates/JavaScript_Note.md`
-  - Java: `Templates/Java.md`, `Templates/Java_Note.md`
-  - C#: `Templates/C_Sharp.md`, `Templates/C_Sharp_Note.md`
-  - C++: `Templates/C++.md`, `Templates/C++_Note.md`
-  - Ruby: `Templates/Ruby.md`, `Templates/Ruby_Note.md`
-  - Perl: `Templates/Perl.md`, `Templates/Perl_Note.md`
-  - Zsh: `Templates/Zsh_Note.md`
-  - Dockerfile reference: `Templates/Dockerfile.md`, `Templates/Dockerfile_Note.md`
-
-- Operational Tools
-  - Metasploit: `Templates/Metasploit_Note.md`
-  - Nmap: `Templates/Nmap_Note.md`
-  - Wireshark: `Templates/Wireshark_Note.md`
-  - Snort/NIDS: `Templates/Snort_Note.md`, `Templates/NIDS_Note.md`
-  - Nessus: `Templates/Nessus_Note.md`
-  - Obsidian: `Templates/Obsidian_Note.md`
-  - Generic Tool: `Templates/Tool_Template.md`
-
-- Reporting & Documentation
-  - Pentest Report: `Templates/Pentest_Report_Template.md`
-  - Exploit Write-up: `Templates/Exploit_Template.md`
-  - Lab Notes: `Templates/Lab Notes.md`
-  - Book/Chapter: `Templates/Book_Template.md`, `Templates/Chapter_Template.md`
-
-- Infrastructure & Networking
-  - Networking: `Templates/Networking_Note.md`
-  - Firewall: `Templates/Firewall_Note.md`
-
-- Knowledge & Learning
-  - General Reading: `Templates/General_Reading_Note.md`
-  - New Reading Entry: `Templates/New_Reading_Entry.md`
-  - Links collector: `Templates/Links.md`
-  - Packages/Dependencies: `Templates/Packages_Note.md`
-  - Social Engineering: `Templates/Social_Engineering.md`
-  - Language generic: `Templates/Language_Template.md`
-
-- Workflow & Visualization
-  - Flowchart/Canvas helper: `Templates/Flowchart_Template.md`
-
-Tips
-- Use Templater to instantiate any of these quickly; most include prompts for metadata/frontmatter.
-- If you want, I can wire QuickAdd capture commands for each template.
-## Automation: SE Evidence Finder
-
-Python utility to copy and normalize social‑engineering or campaign evidence into the vault with an index and JSON manifest.
-
-- Input: any `--src` folder (images, pcaps, logs, emails, audio, docs)
-- Output: `Reports/<campaign>/Evidence/{images,pcap,logs,emails,attachments,audio,other}`
-- Index: `Evidence_Index.md` + `evidence_manifest.json`
-
-Usage:
-```
-python Automation/Scripts/se_evidence_finder_copy.py --src C:\path\to\raw_evidence --campaign MyCampaign --vault C:\OffsecDEV\OffsecDEV_Root
-```
-
-Tip: Keep originals — this script copies by default.
+All steps are linked from the Master Index and domain hubs so you can move smoothly from study → practice → portfolio.
 
 ---
 
-## Learning Path (Use the Vault As Your Syllabus)
+## Templates Overview
 
-- Foundations: Networking basics, Linux/Windows essentials, scripting (see Notes + Templates)
-- Discovery: Nmap fundamentals → service fingerprints → targeted enumeration
-- Exploitation: Metasploit workflow → PoCs → post‑exploitation checkpoints
-- Analysis: Wireshark/Snort workflows → evidence capture and correlation
-- Reporting: Findings → recommendations → export from report templates
-- Automation: Add your own scripts and link them into Workflows
+Programming & Systems
+- Python (`Templates/Python.md`, `Templates/Python_Note.md`)
+- JavaScript (`Templates/JavaScript.md`, `Templates/JavaScript_Note.md`)
+- Java (`Templates/Java.md`, `Templates/Java_Note.md`)
+- C# (`Templates/C_Sharp.md`, `Templates/C_Sharp_Note.md`)
+- C++ (`Templates/C++.md`, `Templates/C++_Note.md`)
+- Ruby (`Templates/Ruby.md`, `Templates/Ruby_Note.md`)
+- Perl (`Templates/Perl.md`, `Templates/Perl_Note.md`)
+- Zsh (`Templates/Zsh_Note.md`)
+- Dockerfile (`Templates/Dockerfile.md`, `Templates/Dockerfile_Note.md`)
 
-Each step links back into the vault’s indices and templates to reinforce a single, coherent workflow.
+Pentesting Tools (operator notes)
+- Metasploit (`Templates/Metasploit_Note.md`)
+- Nmap (`Templates/Nmap_Note.md`)
+- Wireshark (`Templates/Wireshark_Note.md`)
+- Snort (`Templates/Snort_Note.md`)
+- Burp Suite (`Templates/Burp_Suite_Note.md`)
+- ffuf (`Templates/FFUF_Note.md`)
+- gobuster (`Templates/Gobuster_Note.md`)
+- nikto (`Templates/Nikto_Note.md`)
+- hydra (`Templates/Hydra_Note.md`)
+- John the Ripper (`Templates/John_The_Ripper_Note.md`)
+- hashcat (`Templates/Hashcat_Note.md`)
+- sqlmap (`Templates/SQLMap_Note.md`)
+
+Reports & Operations
+- Pentest report (`Templates/Pentest_Report_Template.md`)
+- Finding template (`Pentest Campaign/Reports/Example Campaign/06-Reporting/Findings/Finding_Template.md`)
+- Lab notes (`Templates/Lab Notes.md`)
+- Exploit record (`Templates/Exploit_Template.md`)
+- Flowcharts (`Templates/Flowchart_Template.md`)
+
+Study & Organization
+- Algorithm, Data Structure, Concept, Reading Summary, Exam Review
+- Course overview & dashboard (`Templates/University Course Overview.md`, `Templates/Course_Dashboard.md`)
+- General note (`Templates/All_Purpose_Note.md`), Links (`Templates/Links.md`)
 
 ---
 
-## Plugins and Compatibility
+## Automation: Evidence & Findings
 
-- Dataview: Drives dashboards and indexes (queries are included in index pages)
-- Templater: Prompts and dynamic frontmatter for templates
-- Canvas: Flowcharts in `/Flowcharts` (.canvas files)
+Evidence archiver (copy or move) — normalizes and indexes raw artifacts
+- PowerShell wrapper: `Pentest Campaign/Reports/Example Campaign/Scripts/Run_Evidence_Finder.ps1`
+- Python core: `Automation/Scripts/se_evidence_finder_copy.py`
 
-Everything works offline with Obsidian. No vendor lock‑in; it’s just Markdown.
+Generate finding stubs from scans
+- Python: `Pentest Campaign/Reports/Example Campaign/Scripts/generate_findings.py`
+- Bulk runner: `Pentest Campaign/Reports/Example Campaign/Scripts/Generate_Findings_From_Scans.ps1`
+- Output: `06-Reporting/Findings/*.md` (ready for editing)
 
----
-
-## Contributing / Personalizing
-
-- Fork the repo, or clone and iterate locally
-- Adjust tags to your taxonomy (see `Tags/Index.md` and `Tags/Taxonomy Reference.md`)
-- Add tools and workflows by copying templates
-- Keep sensitive items out if publishing publicly (e.g., real client data)
-
-If you’re new: start by reading, templating one tool, and writing one mini‑workflow. Iterate daily.
+New Campaign scaffold
+- PowerShell: `Automation/Scripts/new_campaign.ps1 -Name "My Campaign"`
+- QuickAdd capture (creates Overview only): QuickAdd → “New Campaign (Overview)”
 
 ---
 
-## Folder Map (High‑Level)
+## Tags and Taxonomy
+
+Consistent tags make Dataview dashboards work. See:
+- Tag dictionary: `Tags/Index.md`
+- Taxonomy reference: `Tags/Taxonomy Reference.md`
+
+Use frontmatter tags like `pentesting`, `networking`, `tool`, `education`, `reading`, `vulnerability`, `workflow` to keep content discoverable. Course/class notes and Network+ Baseline are tagged to populate Courses Hub.
+
+---
+
+## Styling and Plugins
+
+- CSS snippets are enabled (see `.obsidian/appearance.json`). New templates use `cssclass: cs-note` for consistent look-and-feel.
+
+### Required & Recommended Plugins
+- Required
+  - Dataview: Query notes to build dashboards and tables
+  - Templater: Generate consistent frontmatter and scaffolds
+- Recommended
+  - QuickAdd: Capture commands (config under `Automation/QuickAdd/`)
+  - Advanced Canvas: Visual diagrams and flows
+  - Tag Wrangler: Keep taxonomy clean as you grow
+  - Tasks: Rich task management in Markdown
+
+Setup tips
+- Enable Dataview and Templater first
+- In Templater, enable “Trigger Templater on new file creation”
+- QuickAdd → Settings → Import → `Automation/QuickAdd/quickadd.offsecdev.json`
+- Use the included choices: New Tool Note, New Finding, New Burp Log, New Campaign (Overview), etc.
+
+---
+
+## Folder Map (High-Level)
 
 - `00_Index/` — Global navigation, dashboards, and governance
 - `Templates/` — Reusable formats (tools, reports, languages, workflows)
@@ -193,46 +180,4 @@ If you’re new: start by reading, templating one tool, and writing one mini‑w
 ## License and Use
 
 This is an educational and operational structure intended to accelerate learning and standardize execution. Use responsibly and ethically.
-
-
----
-
-## Recommended Community Plugins
-
-- Dataview: Query notes to build dashboards, tables, and task views. Used across all index pages to surface “active” content from metadata.
-- Templater: Powerful templating and prompts that generate consistent frontmatter and scaffolds. This vault’s templates are Templater-ready.
-- QuickAdd (optional): Create capture commands to instantly spawn Tool, Vulnerability, Workflow, and Reading notes from templates.
-- Tag Wrangler (optional): Rename and merge tags safely, keeping your taxonomy consistent.
-- Canvas / Advanced Canvas: Visualize architectures and workflows. This repo includes .canvas files under Flowcharts/.
-- Tasks (optional): Rich task management in Markdown; great for campaign checklists.
-- Admonition (optional): Clean callout blocks for warnings, tips, and notes in reports and guides.
-- Obsidian Git (optional): Version your vault directly from Obsidian if you prefer in‑app commits.
-
-Setup tips
-- Enable Dataview and Templater first; most dashboards and templates depend on them.
-- In Templater settings, enable “Trigger Templater on new file creation” for smooth template workflows.
-- With QuickAdd, create capture macros mapped to the Templates folder to speed up note creation.
-
-## Screenshots / GIFs
-
-Drop your screenshots into `images/` and use these filenames (or tell me new names and I will update links):
-
-![Knowledge Graph (Obsidian Graph View)](images/OffsecDEV.gif)
-
-![Vault Structure (Obsidian Sidebar)](images/OffsecDEV.png)
-
-
-
-### Additional Visuals
-
-- Vault structure (Obsidian sidebar):
-
-![Vault Structure (Obsidian Sidebar)](images/OffsecDEV.png)
-
-- Knowledge graph (Obsidian Graph View):
-
-![Knowledge Graph (Obsidian Graph View)](images/OffsecDEV.gif)
-
-
-
 

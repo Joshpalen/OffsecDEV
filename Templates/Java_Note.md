@@ -1,37 +1,39 @@
-# ☕ Java Note
-
-**Date:**  
-**Topic / Class:**  
-
+---
+title: "<% tp.file.title %>"
+type: lang-note
+language: Java
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [cs, language, java]
+cssclass: cs-note
 ---
 
-## 🧠 Concept
-(Explain what this note or snippet covers.)
+# <% tp.file.title %>
 
----
+> [!meta]
+> Language: Java • Topic:  
+> Date: <% tp.date.now('YYYY-MM-DD') %>
 
-## 💡 Code Snippet
-    public class Main {
-        public static void main(String[] args) {
-            System.out.println("Hello, Java!");
-        }
-    }
+## Concept
+Describe the API or concept.
 
----
+## Code
+```java
+class Main { public static void main(String[] args) { System.out.println("Hello"); } }
+```
 
-## 🔧 Commands
+## Commands
 | Task | Command |
-|------|----------|
+|------|---------|
 | Compile | `javac Main.java` |
 | Run | `java Main` |
-| Version | `java -version` |
 
----
+## Notes
+- 
+- 
 
-## 🧩 Notes
--  
--  
+## Related
+[[Templates/Java]], [[Templates/Algorithm]], [[Templates/Data_Structure]]
 
----
-**References:**  
-(Links or related docs)
+## References
+Docs or guides
+

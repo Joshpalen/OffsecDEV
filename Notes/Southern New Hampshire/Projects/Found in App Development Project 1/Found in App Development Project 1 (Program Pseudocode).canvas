@@ -1,0 +1,75 @@
+{
+	"nodes":[
+		{
+			"id":"decide_type",
+			"type":"text",
+			"text":"Is pet a dog or a cat?",
+			"styleAttributes":{"shape":"diamond"},
+			"x":0,
+			"y":200,
+			"width":420,
+			"height":80,
+			"color":"2"
+		},
+		{"id":"assign_cat","type":"text","text":"Assign Cat Space\n- Decrease available cat spaces","x":320,"y":430,"width":360,"height":130,"color":"5"},
+		{"id":"assign_dog","type":"text","text":"Assign Dog Space\n- Decrease available dog spaces","x":-280,"y":430,"width":360,"height":130,"color":"5"},
+		{
+			"id":"end",
+			"type":"text",
+			"text":"End Check-In Process",
+			"styleAttributes":{"shape":"circle"},
+			"x":30,
+			"y":1040,
+			"width":360,
+			"height":80,
+			"color":"1"
+		},
+		{
+			"id":"start",
+			"type":"text",
+			"text":"Start Check-In Process",
+			"styleAttributes":{"shape":"circle"},
+			"x":30,
+			"y":-160,
+			"width":360,
+			"height":80,
+			"color":"4"
+		},
+		{
+			"id":"input_info",
+			"type":"text",
+			"text":"Input Pet Information\n- Pet name, type, age, days of stay",
+			"styleAttributes":{"shape":"parallelogram"},
+			"x":0,
+			"y":0,
+			"width":420,
+			"height":140,
+			"color":"6"
+		},
+		{
+			"id":"display_summary",
+			"type":"text",
+			"text":"Display Check-In Summary\n- Pet details, assigned space, total amount due",
+			"styleAttributes":{"shape":"parallelogram"},
+			"x":0,
+			"y":840,
+			"width":420,
+			"height":140
+		},
+		{"id":"calculate_cost","type":"text","text":"Calculate Total Cost\n- cost = daysStay × ratePerDay","x":0,"y":640,"width":420,"height":120,"color":"#d400ff"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"start","fromSide":"bottom","toNode":"input_info","toSide":"top"},
+		{"id":"e2","fromNode":"input_info","fromSide":"bottom","toNode":"decide_type","toSide":"top"},
+		{"id":"e3","fromNode":"decide_type","fromSide":"bottom","toNode":"assign_dog","toSide":"top","label":"Dog"},
+		{"id":"e4","fromNode":"decide_type","fromSide":"bottom","toNode":"assign_cat","toSide":"top","label":"Cat"},
+		{"id":"e5","fromNode":"assign_dog","fromSide":"bottom","toNode":"calculate_cost","toSide":"top"},
+		{"id":"e6","fromNode":"assign_cat","fromSide":"bottom","toNode":"calculate_cost","toSide":"top"},
+		{"id":"e7","fromNode":"calculate_cost","fromSide":"bottom","toNode":"display_summary","toSide":"top"},
+		{"id":"e8","fromNode":"display_summary","fromSide":"bottom","toNode":"end","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

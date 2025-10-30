@@ -1,56 +1,32 @@
-# 🌐 Networking Note
-
-**Date:**  
-**Lab / Network:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: domain-note
+domain: networking
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [networking]
+cssclass: cs-note
 ---
 
-## 🎯 Objective
-(Topology mapping, troubleshooting, VLANs, routing, subnetting note)
+# <% tp.file.title %>
 
----
+## Summary
+One or two sentences on the topic.
 
-## 🔍 Topology / Key Info
-- Subnets:  
-- Gateways:  
-- VLANs:  
-- Core devices / IPs:  
+## Concepts
+- 
+- 
 
----
+## Commands
+| Task | Command |
+|------|---------|
+|  |  |
 
-## ⚙️ Commands / Snippets
-    # Linux
-    ip addr show
-    ip route show
-    ss -tulpn
+## Diagrams
+Use Mermaid or link to Canvas.
 
-    # Cisco
-    show ip route
-    show run
-    show vlan brief
+## Related
+[[Templates/Wireshark_Note]] • [[Templates/Nmap_Note]] • [[Templates/Firewall_Note]]
 
----
+## References
+Docs and cheat sheets
 
-## 🧾 Observations
-- Latency / packet loss:  
-- Misconfigurations found:  
-- ARP / Duplicate IP issues:
-
----
-
-## 🧩 Troubleshooting Steps
-1. Ping / traceroute  
-2. Check ARP table  
-3. Capture packets if needed
-
----
-
-## 🧭 Next Steps
-- Reconfigure ACL on router  
-- Document VLAN mapping
-
----
-
-**References:**  
-(RFCs, vendor docs)

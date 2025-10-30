@@ -1,35 +1,34 @@
-# 🐳 Dockerfile Note
-
-**Date:**  
-**Image / Container:**  
-
+---
+title: "<% tp.file.title %>"
+type: tool-note
+tool: Docker
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [docker]
+cssclass: cs-note
 ---
 
-## 🧠 Concept
-(Describe what image or concept this note covers.)
+# <% tp.file.title %>
 
----
+## Concept
+Describe the image or Dockerfile change.
 
-## 💡 Dockerfile Snippet
-    FROM alpine:latest
-    RUN apk add --no-cache python3
-    CMD ["python3", "--version"]
+## Dockerfile Snippet
+```dockerfile
+FROM alpine:latest
+RUN apk add --no-cache python3
+CMD ["python3", "--version"]
+```
 
----
-
-## 🔧 Commands
+## Commands
 | Task | Command |
-|------|----------|
+|------|---------|
 | Build | `docker build -t myimage .` |
 | Run | `docker run myimage` |
 | List images | `docker images` |
 
----
+## Notes
+- 
 
-## 🧩 Notes
--  
--  
+## References
+Docker Hub, docs
 
----
-**References:**  
-(Docker Hub, docs)

@@ -1,34 +1,41 @@
-# ⚡ JavaScript Note
-
-**Date:**  
-**Topic / Script:**  
-
+---
+title: "<% tp.file.title %>"
+type: lang-note
+language: JavaScript
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [cs, language, javascript]
+cssclass: cs-note
 ---
 
-## 🧠 Concept
-(Describe what you’re testing or noting.)
+# <% tp.file.title %>
 
----
+> [!meta]
+> Language: JavaScript • Topic:  
+> Date: <% tp.date.now('YYYY-MM-DD') %>
 
-## 💡 Code Snippet
-    const greet = name => console.log(`Hello, ${name}!`);
-    greet("Josh");
+## Concept
+Describe the API, syntax, or behavior being tested.
 
----
+## Code
+```js
+const greet = name => console.log(`Hello, ${name}!`);
+greet("Josh");
+```
 
-## 🔧 Commands
+## Commands
 | Task | Command |
-|------|----------|
+|------|---------|
 | Run (Node.js) | `node script.js` |
 | Version | `node -v` |
 | Lint | `eslint script.js` |
 
----
+## Notes
+- 
+- 
 
-## 🧩 Notes
--  
--  
+## Related
+[[Templates/JavaScript]], [[Templates/Algorithm]], [[Templates/Data_Structure]]
 
----
-**References:**  
-(Links or MDN docs)
+## References
+MDN or library docs
+

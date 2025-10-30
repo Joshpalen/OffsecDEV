@@ -1,52 +1,45 @@
-# 📦 Packages Note
-
-**Date:**  
-**Environment / Repo:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: packages
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [packages]
+cssclass: cs-note
 ---
 
-## 🎯 Objective
-(Track installed packages, versions, updates, CVE checks)
+# <% tp.file.title %>
 
----
+## Objective
+Track installed packages, versions, updates, and CVE checks.
 
-## 🔍 Environment Info
-- OS / Distro:  
-- Package manager: (apt / yum / pip / npm / gem)
+## Environment
+- OS/Distro:  
+- Package manager: (apt / dnf / pip / npm / gem)
 
----
+## Commands
+```bash
+# Debian/Ubuntu
+apt update && apt list --upgradable
 
-## ⚙️ Commands
-    # Debian/Ubuntu
-    apt update && apt list --upgradable
+# Python
+pip list --outdated
 
-    # Python
-    pip list --outdated
+# Node
+npm outdated
+```
 
-    # Node
-    npm outdated
-
----
-
-## 🧾 Notable Packages & Versions
+## Notable Packages & Versions
 | Package | Current | Latest | Notes |
 |---------|---------|--------|-------|
 |  |  |  |  |
 
----
-
-## 🧩 Security / Updates
+## Security / Updates
 - CVEs affecting packages:  
 - Planned updates / rollback plan:
 
----
-
-## 🧭 Next Steps
+## Next Steps
 - Schedule patching  
 - Test update on staging
 
----
+## References
+Vendor pages, package repos
 
-**References:**  
-(OS vendor pages, package repos)

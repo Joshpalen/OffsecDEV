@@ -1,54 +1,47 @@
-# 🧺 Wireshark Note
-
-**Date:**  
-**Capture / Interface:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: tool-note
+tool: Wireshark
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [tool, wireshark, networking]
+cssclass: cs-note
 ---
 
-## 🎯 Objective
-(Packet capture for troubleshooting, protocol analysis, IDS tuning, pcap forensics)
+# <% tp.file.title %>
 
----
+> [!meta]
+> Capture/Interface:  • Date: <% tp.date.now('YYYY-MM-DD') %>
 
-## ⚙️ Capture Filters (BPF)
-- `host 10.0.0.5`  
-- `net 192.168.1.0/24`  
+## Objective
+Packet capture, protocol analysis, IDS tuning, or pcap forensics.
+
+## Capture Filters (BPF)
+- `host 10.0.0.5`
+- `net 192.168.1.0/24`
 - `port 80`
 
-## 🔍 Display Filters
-- `http`  
-- `tcp.port == 22`  
+## Display Filters
+- `http`
+- `tcp.port == 22`
 - `ip.addr == 10.0.0.5`
 
----
-
-## 🧾 Observations
+## Observations
 - Suspicious flows:  
-- Repeated retransmits:  
-- Protocol anomalies:  
+- Retransmits:  
+- Anomalies:  
 
-(Reference packet numbers / timestamps)
+## Analysis Notes
+- Follow TCP stream  
+- Export objects (HTTP, SMB)  
+- IO graph for traffic patterns
 
----
-
-## 🧩 Analysis Notes
-- Follow TCP stream: `Follow → TCP Stream`  
-- Export objects (HTTP, SMB) for evidence  
-- Use IO graph for traffic patterns
-
----
-
-## 🧰 Evidence
+## Evidence
 `/Evidence/pcaps/` — pcap filename, key packet IDs/screenshots
 
----
-
-## 🧭 Next Steps
+## Next Steps
 - Deep dive on stream X  
 - Correlate with IDS logs
 
----
+## References
+Wireshark docs, BPF cheat sheets
 
-**References:**  
-(Wireshark docs, BPF cheat sheet)

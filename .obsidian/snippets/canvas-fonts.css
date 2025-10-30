@@ -1,0 +1,17 @@
+/* Change body text font size & family in canvas cards */
+.canvas-node-container .markdown-rendered p {
+  font-size: 30px;             /* change number as you like */
+  font-family: "Arial", sans-serif;  /* pick a font */
+}
+
+/* Change heading (h1/h2) size in canvas cards */
+.canvas-node-container .markdown-rendered h1 {
+  font-size: 26px;
+  font-family: "Georgia", serif;
+}
+
+/* Change font size when editing (source mode) in a card */
+.mod-inside-iframe > .cm-editor > .cm-scroller {
+  font-size: 18px;
+  font-family: "Courier New", monospace;
+}

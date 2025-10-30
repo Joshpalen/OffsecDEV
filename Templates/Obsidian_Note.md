@@ -1,50 +1,40 @@
-# 🗂️ Obsidian Note
-
-**Date:**  
-**Vault / File:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: obsidian-note
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [obsidian, workflow]
+cssclass: cs-note
 ---
 
-## 🎯 Objective
-(Template, daily note pattern, tagging strategy, linking conventions)
+# <% tp.file.title %>
 
+## Objective
+Template patterns, tagging strategy, linking conventions.
+
+## Template Snippets
+```yaml
 ---
-
-## ⚙️ Template Snippets
-    ---
-    tags: [project/myproject, status/in-progress]
-    aliases: [shortname]
-    ---
-
-    ## Summary
-    ## Tasks
-    - [ ] Task 1
-    ## Links
-    [[Related Note]]
-
+tags: [project/myproject, status/in-progress]
+aliases: [shortname]
+cssclass: cs-note
 ---
+```
 
-## 🧾 Vault Structure Idea
+## Vault Structure Ideas
 - Templates/  
 - Projects/  
-- LabNotes/  
+- Lab Notes/  
 - Evidence/
 
----
+## Plugins / Settings
+- Dataview
+- Periodic Notes
+- Templater
 
-## 🧩 Plugins / Settings
-- Dataview: notes to query  
-- Periodic Notes / Daily notes  
-- Templater: variables in templates
+## Next Steps
+- Implement folder naming  
+- Create report template
 
----
+## References
+Obsidian help, Dataview docs
 
-## 🧭 Next Steps
-- Implement folder naming convention  
-- Create template for pentest reports
-
----
-
-**References:**  
-(Obsidian help, Dataview docs)

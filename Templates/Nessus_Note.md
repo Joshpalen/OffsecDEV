@@ -1,56 +1,38 @@
-# 🔎 Nessus Note
-
-**Date:**  
-**Scan Name / Policy:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: tool-note
+tool: Nessus
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [tool, nessus, vuln]
+cssclass: cs-note
 ---
 
-## 🎯 Objective
-(What scan type — credentialed, uncredentialed, compliance?)
+# <% tp.file.title %>
 
----
+> [!meta]
+> Scan name:  • Date: <% tp.date.now('YYYY-MM-DD') %>
 
-## 🔍 Scan Targets
-- IP Range / Host(s):  
-- Policy Used:  
-- Credentials (Y/N):  
+## Objective
+Vulnerability scanning and risk assessment.
 
----
+## Setup
+- Policy:  
+- Targets:  
+- Credentials: 
 
-## ⚙️ Commands / Workflow
-- Create scan in UI / CLI  
-- Launch scan  
-- Export report: `nessus -> export -> csv / html / pdf`
+## Findings
+| Host | Vuln | Severity | Plugin | Notes |
+|------|------|----------|--------|-------|
+|  |  |  |  |  |
 
----
+## Exports
+- Report files: `.nessus`, `.csv` locations
 
-## 🧾 Findings Summary
-| Severity | Count | Notable Examples |
-|----------|-------|------------------|
-| Critical |  |  |
-| High |  |  |
-| Medium |  |  |
-| Low |  |  |
+## Next Steps
+- Validate criticals  
+- Create tickets  
+- Plan remediation
 
----
+## References
+Tenable docs
 
-## ✅ Remediation Notes
-- Item 1: fix/configure/patch  
-- Item 2: verification step after remediation
-
----
-
-## 🧩 Evidence / Reports
-`/Evidence/nessus/scanname/` — exported reports, screenshots
-
----
-
-## 🧭 Next Actions
-- Re-scan after fixes  
-- Track remediation status
-
----
-
-**References:**  
-(Nessus policy docs, CVE references)

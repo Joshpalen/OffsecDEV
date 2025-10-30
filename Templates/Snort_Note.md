@@ -1,49 +1,44 @@
-# 🕵️ Snort Note
-
-**Date:**  
-**Sensor / Host:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: tool-note
+tool: Snort
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [tool, snort, ids]
+cssclass: cs-note
 ---
 
-## 🎯 Objective
-(Rules tuning, alert review, baseline behavior, False Positive triage)
+# <% tp.file.title %>
 
----
+> [!meta]
+> Sensor/Host:  • Date: <% tp.date.now('YYYY-MM-DD') %>
 
-## ⚙️ Deployment Info
-- Snort version:  
-- Ruleset: (ET Pro / ET Open / custom)  
-- Sensor interfaces:  
+## Objective
+Rules tuning, alert review, baseline behavior, or FP triage.
 
----
+## Deployment Info
+- Version:  
+- Ruleset: (ET Pro/Open/custom)  
+- Interfaces:  
 
-## 🧾 Recent Alerts / Notable Signatures
+## Recent Alerts / Notable Signatures
 | Time | SID | Msg | Src -> Dst |
 |------|-----|-----|------------|
 |  |  |  |  |
 
----
+## Rule Examples / Tuning
+```text
+alert tcp any any -> $HOME_NET 80 (msg:"Example rule"; sid:1000001; rev:1;)
+```
 
-## 🧩 Rule Examples / Tuning
-    alert tcp any any -> $HOME_NET 80 (msg:"Example rule"; sid:1000001; rev:1;)
+- FP reasoning:  
+- Action (disable/threshold/refine):  
 
-- False positive reasoning:  
-- Action taken (disable, threshold, refine):  
-
----
-
-## 🧰 Logs / Evidence
+## Logs / Evidence
 `/var/log/snort/alert` — relevant lines, pcap evidence
 
----
+## Next Steps
+- 
 
-## 🧭 Next Steps
-- Adjust rule X  
-- Add suppression for Y  
-- Re-evaluate after 24h
+## References
+Snort manual, rules writing guide
 
----
-
-**References:**  
-(Snort manual, rules writing guide)

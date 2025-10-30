@@ -1,1 +1,7 @@
-{}
+{
+  "enabledCssSnippets": [
+    "canvas-fonts",
+    "canvas-center-text",
+    "obsidian-cs-templates"
+  ]
+}

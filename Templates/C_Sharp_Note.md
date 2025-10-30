@@ -1,39 +1,40 @@
-# 🧱 C# Note
-
-**Date:**  
-**Topic / File:**  
-
+---
+title: "<% tp.file.title %>"
+type: lang-note
+language: C#
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [cs, language, csharp]
+cssclass: cs-note
 ---
 
-## 🧠 Concept
-(Describe class, method, or pattern being noted.)
+# <% tp.file.title %>
 
----
+> [!meta]
+> Language: C# • Topic:  
+> Date: <% tp.date.now('YYYY-MM-DD') %>
 
-## 💡 Code Snippet
-    using System;
+## Concept
+Describe the API or pattern.
 
-    class Program {
-        static void Main() {
-            Console.WriteLine("Hello, C#!");
-        }
-    }
+## Code
+```csharp
+using System;
+class Program { static void Main() { Console.WriteLine("Hello"); } }
+```
 
----
-
-## 🔧 Commands
+## Commands
 | Task | Command |
-|------|----------|
-| Run | `dotnet run` |
-| Build | `dotnet build` |
-| New project | `dotnet new console -n MyApp` |
+|------|---------|
+| New console app | `dotnet new console -n App` |
+| Build/Run | `dotnet run` |
 
----
+## Notes
+- 
+- 
 
-## 🧩 Notes
--  
--  
+## Related
+[[Templates/C_Sharp]], [[Templates/Algorithm]], [[Templates/Data_Structure]]
 
----
-**References:**  
-(Links or related docs)
+## References
+Docs or guides
+

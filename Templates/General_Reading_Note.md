@@ -1,38 +1,30 @@
-# 📚 General Reading Note
-
-**Date:**  
-**Title / Source:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: reading
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [cs, reading]
+cssclass: cs-note
 ---
 
-## 🎯 Purpose
-(Why you read this — research, training, reference)
+# <% tp.file.title %>
 
----
+## Purpose
+Why you read this (research, training, reference).
 
-## 🔍 Summary
-(Brief summary of the content / key points)
+## Summary
+Brief summary of the content / key points.
 
----
+## Key Takeaways
+- 
+- 
 
-## 🧾 Key Takeaways
-- Point 1  
-- Point 2  
-- Point 3
-
----
-
-## 🧩 Questions / Follow-ups
-- What to test / try next  
+## Questions / Follow-ups
+- What to test/try next  
 - Related topics to read
 
----
-
-## 🧭 References / Links
+## References / Links
 - URL / Book / Paper citation
 
----
+## Notes
+Quotable excerpts or timestamped notes
 
-**Notes:**  
-(Quotable excerpts, timestamped notes)

@@ -14,10 +14,14 @@
   "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
-    {
-      "folder": "",
-      "template": ""
-    }
+    { "folder": "Notes/Southern New Hampshire/Class Notes", "template": "Templates/Lecture_Note" },
+    { "folder": "Notes/Southern New Hampshire/Projects", "template": "Templates/Lab Notes" },
+    { "folder": "Notes/Network+ Baseline", "template": "Templates/Concept" },
+    { "folder": "Source Material/Books", "template": "Templates/Book_Template" },
+    { "folder": "Source Material/Tools", "template": "Templates/Tool_Template" },
+    { "folder": "Source Material", "template": "Templates/General_Reading_Note" },
+    { "folder": "Pentest Campaign/Reports", "template": "Templates/Pentest_Report_Template" },
+    { "folder": "Notes", "template": "Templates/All_Purpose_Note" }
   ],
   "enable_file_templates": false,
   "file_templates": [

@@ -1,39 +1,41 @@
-# ⚙️ C++ Note
-
-**Date:**  
-**Topic / File:**  
-
+---
+title: "<% tp.file.title %>"
+type: lang-note
+language: C++
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [cs, language, cpp]
+cssclass: cs-note
 ---
 
-## 🧠 Concept
-(Brief explanation of feature, class, or method.)
+# <% tp.file.title %>
 
----
+> [!meta]
+> Language: C++ • Topic:  
+> Date: <% tp.date.now('YYYY-MM-DD') %>
 
-## 💡 Code Snippet
-    #include <iostream>
-    using namespace std;
+## Concept
+Describe standard/library/idiom explored.
 
-    int main() {
-        cout << "Hello, C++!";
-        return 0;
-    }
+## Code
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main(){ cout << "Hello" << endl; }
+```
 
----
-
-## 🔧 Commands
+## Build/Run
 | Task | Command |
-|------|----------|
-| Compile | `g++ main.cpp -o main` |
-| Run | `./main` |
-| Version | `g++ --version` |
+|------|---------|
+| Compile | `g++ -std=c++20 main.cpp -O2 -o app` |
+| Run | `./app` |
 
----
+## Notes
+- 
+- 
 
-## 🧩 Notes
--  
--  
+## Related
+[[Templates/C++]], [[Templates/Algorithm]], [[Templates/Data_Structure]]
 
----
-**References:**  
-(Links or docs)
+## References
+cppreference.com, docs
+

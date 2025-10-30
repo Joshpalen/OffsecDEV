@@ -1,26 +1,31 @@
-### 📖 Title:
-*(Full title of article, paper, book, or report)*
+---
+title: "<% tp.file.title %>"
+type: reading
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [cs, reading]
+cssclass: cs-note
+---
 
-**Source / Author:**  
-**Date Accessed:** {{date}}  
-**Tags:** [#education, #reference]  
-**Related Notes:** [[General_Reading_Note]]  
+# <% tp.file.title %>
 
-**Summary:**  
-(Brief description of what this covers)
+## Source
+Author/Source • Accessed: <% tp.date.now('YYYY-MM-DD') %>
 
-**Key Points:**  
--  
--  
--  
+## Summary
+Brief description.
 
-**Takeaways / Insights:**  
-(What did you learn? How does it connect to your projects or other notes?)
+## Key Points
+- 
+- 
 
-**Follow-Up Actions:**  
+## Takeaways
+What you learned and connections to other notes.
+
+## Follow-Up Actions
 - [ ] Review again  
 - [ ] Create concept note on related topic  
-- [ ] Add related tag to [[Tags/index]]  
+- [ ] Add related tag to [[Tags/index]]
 
-**Attachment(s):**  
-(If applicable: PDFs, screenshots, or saved links)
+## Attachments
+Links or files
+

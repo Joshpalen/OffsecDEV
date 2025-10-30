@@ -11,10 +11,12 @@ source: "<% tp.system.suggester(['Print','PDF','eBook','Web'], ['Print','PDF','e
 status: "<% tp.system.suggester(['Not started','In progress','Completed'], ['Not started','In progress','Completed']) %>"
 subject: "<% tp.system.suggester(['Networking','Linux','OffSec','Programming','Windows','Android'], ['Networking','Linux','OffSec','Programming','Windows','Android']) %>"
 progress: 0
+cssclass: cs-note
 ---
+
 # <% tp.file.title %>
 
-> purpose:: High-yield reading with labs that map directly to OffSec skills.
+> Purpose: High-yield reading with labs that map to OffSec skills.
 
 ## Summary (3–5 sentences)
 - 
@@ -29,8 +31,7 @@ progress: 0
 
 ## Action Items
 - [ ] Build lab environment for this book
-- [ ] Extract top 20 commands to a [[Cheat Sheet – <% tp.file.title %>]]
+- [ ] Extract top 20 commands to a [[Cheat Sheet — <% tp.file.title %>]]
 
 ## Related
-- [[Master Index]]  [[Reading Log]]
-
+- [[00_Index/Master Index]]  [[00_Index/Reading Log]]

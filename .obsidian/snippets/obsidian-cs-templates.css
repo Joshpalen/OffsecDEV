@@ -1,0 +1,38 @@
+/* Obsidian CS Templates: compact, readable, consistent */
+
+/* Scope styles to notes using cssclass: cs-note */
+.cs-note {
+  --cs-border: var(--background-modifier-border);
+}
+
+.cs-note h1, .cs-note h2 { margin-top: 1.2em; margin-bottom: 0.4em; }
+.cs-note h3, .cs-note h4 { margin-top: 1em; margin-bottom: 0.3em; }
+
+/* Tables: compact with subtle zebra striping */
+.cs-note table { width: 100%; border-collapse: collapse; }
+.cs-note th, .cs-note td { border: 1px solid var(--cs-border); padding: 6px 8px; }
+.cs-note tr:nth-child(even) { background: var(--background-secondary); }
+
+/* Inline code + code blocks */
+.cs-note code { background: var(--background-secondary); padding: 0 4px; border-radius: 4px; }
+.cs-note pre code { display: block; padding: 10px 12px; border-radius: 6px; }
+
+/* Callouts tuned for study templates */
+.cs-note .callout[data-callout="meta"] {
+  border-left: 3px solid var(--color-accent);
+  background: var(--background-secondary);
+}
+.cs-note .callout[data-callout="summary"],
+.cs-note .callout[data-callout="abstract"],
+.cs-note .callout[data-callout="tip"] {
+  background: var(--background-secondary-alt);
+}
+.cs-note .callout[data-callout="proof"],
+.cs-note .callout[data-callout="theorem"],
+.cs-note .callout[data-callout="definition"] {
+  border-left: 3px solid var(--interactive-accent);
+}
+
+/* Task lists: tighter spacing */
+.cs-note .task-list-item { margin-top: 0.25rem; margin-bottom: 0.25rem; }
+

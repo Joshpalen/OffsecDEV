@@ -1,46 +1,31 @@
-# 🐚 Zsh Note
-
-**Date:**  
-**Host / Profile:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: tool-note
+tool: zsh
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [shell, zsh]
+cssclass: cs-note
 ---
 
-## 🎯 Objective
-(Configure prompt, aliases, completion, oh-my-zsh plugin notes)
+# <% tp.file.title %>
 
----
+## Objective
+Shell config, prompts, aliases, and plugins.
 
-## ⚙️ Key Config Snippets
-    # .zshrc example
-    export ZSH="$HOME/.oh-my-zsh"
-    ZSH_THEME="agnoster"
-    plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
-    source $ZSH/oh-my-zsh.sh
+## Config
+```zsh
+# ~/.zshrc
+export EDITOR=nvim
+alias ll='ls -alh'
+```
 
-    # Alias
-    alias ll='ls -la'
+## Plugins
+- zsh-autosuggestions
+- zsh-syntax-highlighting
 
----
+## Tips
+- Keybindings, history settings
 
-## 🧾 Useful Tips
-- Enable autosuggestions plugin for history completion  
-- Use `compdef` for custom completion  
-- `bindkey` to customize keybindings
+## References
+Zsh docs
 
----
-
-## 🧩 Troubleshooting
-- Theme rendering issues → check `POWERLEVEL9K`/font config  
-- Slow startup → profile with `zsh -xv` and disable heavy plugins
-
----
-
-## 🧭 Next Steps / Notes
-- Add prompt color changes  
-- Standardize `.zshrc` across machines
-
----
-
-**References:**  
-(Oh My Zsh docs, Prezto, Zsh man page)

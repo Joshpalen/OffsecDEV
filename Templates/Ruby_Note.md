@@ -1,37 +1,42 @@
-# 💎 Ruby Note
-
-**Date:**  
-**Topic / File:**  
-
+---
+title: "<% tp.file.title %>"
+type: lang-note
+language: Ruby
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [cs, language, ruby]
+cssclass: cs-note
 ---
 
-## 🧠 Concept
-(Brief description of what this note demonstrates.)
+# <% tp.file.title %>
 
----
+> [!meta]
+> Language: Ruby • Topic:  
+> Date: <% tp.date.now('YYYY-MM-DD') %>
 
-## 💡 Code Snippet
-    def greet(name)
-      puts "Hello, #{name}!"
-    end
+## Concept
+Describe method/gem or syntax.
 
-    greet("Josh")
+## Code
+```ruby
+def greet(name)
+  puts "Hello, #{name}!"
+end
+greet("Josh")
+```
 
----
-
-## 🔧 Commands
+## Commands
 | Task | Command |
-|------|----------|
+|------|---------|
 | Run | `ruby script.rb` |
 | Version | `ruby -v` |
-| Gems | `gem list` |
 
----
+## Notes
+- 
+- 
 
-## 🧩 Notes
--  
--  
+## Related
+[[Templates/Ruby]], [[Templates/Algorithm]], [[Templates/Data_Structure]]
 
----
-**References:**  
-(Ruby docs, gems, etc.)
+## References
+Ruby docs
+

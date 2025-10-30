@@ -1,50 +1,36 @@
-# 🚨 NIDS Note
-
-**Date:**  
-**Sensor / Lab:**  
-**Author:**  
-
+---
+title: "<% tp.file.title %>"
+type: infra-note
+domain: NIDS
+created: "<% tp.date.now('YYYY-MM-DD') %>"
+tags: [ids, networking]
+cssclass: cs-note
 ---
 
-## 🎯 Objective
-(Design, deploy, tune network intrusion detection system)
+# <% tp.file.title %>
 
----
+## Objective
+Design, deployment, tuning, and alert triage for network IDS.
 
-## 🔍 Architecture
-- Sensors: (SPAN/tap)  
-- Collector / SIEM:  
-- Rule sources: (ET, custom)  
-- Alerting channel:
+## Architecture
+- Sensor placement:  
+- Tap/mirror config:  
+- Traffic coverage:  
 
----
+## Tuning
+- Suppress noisy SIDs  
+- Threshold rules  
+- Enrich logs with context
 
-## ⚙️ Deployment Notes
-- Hardware / VM specs:  
-- Packet capture method: (af_packet, pcap)  
-- Time sync: NTP config
+## Monitoring
+Dataview or SIEM dashboards, alert review cadence.
 
----
+## Evidence
+Locations for pcaps, alerts, and dashboards.
 
-## 🧾 Performance Metrics
-- Packet drop rate:  
-- Avg alerts/day:  
-- CPU/memory usage:
+## Next Steps
+- 
 
----
+## References
+NIDS comparisons, best practices
 
-## 🧩 Tuning Actions
-- Thresholding rules for noisy signatures  
-- Implement suppress lists for known benign traffic  
-- Add contextual enrichment (asset tags)
-
----
-
-## 🧭 Evaluation
-- False positive rate:  
-- Detection coverage gaps:
-
----
-
-**References:**  
-(NIDS design guides, vendor docs)
